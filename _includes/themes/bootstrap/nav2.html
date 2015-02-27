@@ -1,0 +1,27 @@
+{% assign first = 1 %}
+<ul class="dropdown-menu" role="menu">
+{% for item in include.nav %}
+    {% if item.url %}
+    {% if item.divider %}
+        <li class="divider"></li>
+    {% endif %}
+    <li>
+        <a href="{{ item.url }}">
+            {% if item.url == navurl %}
+                <b>{{ item.text }}</b>
+            {% else %}
+                {{ item.text }}
+            {% endif %}
+        </a>
+    </li>
+    {% else %}
+    {% if first < 1 %}
+        <li class="divider"></li>
+    {% endif %}
+    <li class="dropdown-header" style="font-weight:bold">
+        {{ item.text }}
+    </li>
+    {% endif %}
+    {% assign first = 0 %}
+{% endfor %}
+</ul>

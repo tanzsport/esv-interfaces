@@ -32,11 +32,7 @@
         </div>
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
+            {% include themes/bootstrap/nav1.html nav=site.data.menu %}
         </div>
       </div>
     </nav>
