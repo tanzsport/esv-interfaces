@@ -1,31 +1,31 @@
 - text: Allgemeines
   subitems:
     - text: Umgebungen und Systeme
-      url: /umgebungen_systeme.html
+      url: umgebungen_systeme.html
     - text: Schlüsselverzeichnis
-      url: /schluesselverzeichnis.html
+      url: schluesselverzeichnis.html
 - text: Turnierprogramme
   subitems:
     - text: Veranstaltungen
     - text: Liste
-      url: /interfaces/turnierprogramme/veranstaltung_liste.html
+      url: interfaces/turnierprogramme/veranstaltung_liste.html
     - text: Einzelaufruf
-      url: /interfaces/turnierprogramme/veranstaltung_einzelaufruf.html
+      url: interfaces/turnierprogramme/veranstaltung_einzelaufruf.html
     - text: Startlisten
     - text: Veranstaltung
-      url: /interfaces/turnierprogramme/startliste_veranstaltung.html
+      url: interfaces/turnierprogramme/startliste_veranstaltung.html
     - text: Wettbewerbsart
-      url: /interfaces/turnierprogramme/startliste_wettbewerbsart.html
+      url: interfaces/turnierprogramme/startliste_wettbewerbsart.html
     - text: Ranglisten
-      url: /interfaces/turnierprogramme/rangliste.html
+      url: interfaces/turnierprogramme/rangliste.html
       divider: true
     - text: Funktionäre/Lizenzträger
     - text: Einzelaufruf
-      url: /interfaces/turnierprogramme/funktionaer_einzelaufruf.html
+      url: interfaces/turnierprogramme/funktionaer_einzelaufruf.html
     - text: Liste
-      url: /interfaces/turnierprogramme/funktionaer_einzelaufruf.html
+      url: interfaces/turnierprogramme/funktionaer_einzelaufruf.html
     - text: Aufstiegstabellen
-      url: /interfaces/turnierprogramme/aufstiegstabellen.html
+      url: interfaces/turnierprogramme/aufstiegstabellen.html
       divider: true
 #    - text: Ergebnisse
 #    - text: Wertungsrichterzettel
