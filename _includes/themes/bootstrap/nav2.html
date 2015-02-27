@@ -6,7 +6,7 @@
         <li class="divider"></li>
     {% endif %}
     <li>
-        <a href="{{ item.url }}">
+        <a href="{{ BASE_PATH }}{{ item.url }}">
             {% if item.url == navurl %}
                 <b>{{ item.text }}</b>
             {% else %}
