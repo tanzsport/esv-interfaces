@@ -11,6 +11,7 @@ tagline: Dokumentation
 
 * Startgruppen-Angabe in [Startliste](interfaces/turnierprogramme/startliste_veranstaltung.html) korrigiert (kein Leerzeichen)
 * [Umgebungen und Systeme](umgebungen_systeme.html) ergänzt
+* [Schlüsselverzeichnis](schluesselverzeichnis.html) ergänzt
 
 # Allgemeines #
 
