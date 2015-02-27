@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ESV-Interfaces
+title: ESV-Schnittstellen
 tagline: Dokumentation
 ---
 {% include JB/setup %}
