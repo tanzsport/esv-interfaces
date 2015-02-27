@@ -23,7 +23,7 @@
     - text: Einzelaufruf
       url: /interfaces/turnierprogramme/funktionaer_einzelaufruf.html
     - text: Liste
-      url: /interfaces/turnierprogramme/funktionaer_einzelaufruf.html
+      url: /interfaces/turnierprogramme/funktionaer_liste.html
     - text: Aufstiegstabellen
       url: /interfaces/turnierprogramme/aufstiegstabellen.html
       divider: true
