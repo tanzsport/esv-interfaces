@@ -1,0 +1,184 @@
+[
+	{
+		"ltv": ["LTVB", "TBW", "LTV Berlin", "..."],
+		"minPunkte": 2,
+		"tabellen": [
+			{
+				"startgruppen": ["Kin.I", "Kin.II"],
+				"turnierart": "Std",
+				"kriterien": [
+					{
+						"klasse": "BSW",
+						"punkte": 25,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "D",
+						"punkte": 25,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "C",
+						"punkte": 30,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": true
+					}
+				]
+			},
+			{
+				"startgruppen": ["Kin.I", "Kin.II"],
+				"turnierart": "Lat",
+				"kriterien": [
+					{
+						"klasse": "BSW",
+						"punkte": 30,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "D",
+						"punkte": 30,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "C",
+						"punkte": 30,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": true
+					}
+				]
+			},
+			{
+				"startgruppen": ["Jun.I"],
+				"turnierart": "Std",
+				"kriterien": [
+					{
+						"klasse": "BSW",
+						"punkte": 30,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "D",
+						"punkte": 30,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "C",
+						"punkte": 30,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					}
+				]
+			},
+			{
+				"startgruppen": ["Jun.I"],
+				"turnierart": "Lat",
+				"kriterien": [
+					{
+						"klasse": "BSW",
+						"punkte": 40,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "D",
+						"punkte": 40,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "C",
+						"punkte": 50,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					}
+				]
+			},
+			{
+				"startgruppen": ["Jun.II"],
+				"turnierart": "Std",
+				"kriterien": [
+					{
+						"klasse": "BSW",
+						"punkte": 30,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "D",
+						"punkte": 30,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "C",
+						"punkte": 30,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "B",
+						"punkte": 80,
+						"plaetze": 7,
+						"platzBis": 3,
+						"doppelstart": true
+					}
+				]
+			},
+			{
+				"startgruppen": ["Jun.II"],
+				"turnierart": "Lat",
+				"kriterien": [
+					{
+						"klasse": "BSW",
+						"punkte": 40,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "D",
+						"punkte": 40,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "C",
+						"punkte": 60,
+						"plaetze": 7,
+						"bisPlatz": 3,
+						"doppelstart": false
+					},
+					{
+						"klasse": "B",
+						"punkte": 100,
+						"plaetze": 7,
+						"platzBis": 3,
+						"doppelstart": true
+					}
+				]
+			}
+		]
+	}
+]
