@@ -12,6 +12,7 @@ tagline: Dokumentation
 * Startgruppen-Angabe in [Startliste](interfaces/turnierprogramme/startliste_veranstaltung.html) korrigiert (kein Leerzeichen)
 * [Umgebungen und Systeme](umgebungen_systeme.html) ergänzt
 * [Schlüsselverzeichnis](schluesselverzeichnis.html) ergänzt
+* Interface [Ranglisten](interfaces/turnierprogramme/rangliste.html) ergänzt
 
 # Allgemeines #
 
@@ -25,7 +26,7 @@ tagline: Dokumentation
   * Startlisten
     * [Veranstaltung](interfaces/turnierprogramme/startliste_veranstaltung.html)
     * [Gesamt nach Wettbewerbsart](interfaces/turnierprogramme/startliste_wettbewerbsart.html)
-  * Ranglisten
+  * [Ranglisten](interfaces/turnierprogramme/rangliste.html)
   * Funktionäre/Lizenzträger
     * Einzelaufruf
     * Gesamt-Liste
