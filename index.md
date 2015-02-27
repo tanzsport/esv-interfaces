@@ -13,6 +13,7 @@ tagline: Dokumentation
 * [Umgebungen und Systeme](umgebungen_systeme.html) ergänzt
 * [Schlüsselverzeichnis](schluesselverzeichnis.html) ergänzt
 * Interface [Ranglisten](interfaces/turnierprogramme/rangliste.html) ergänzt
+* Interfaces für Funktionäre ergänzt ([Einzelaufruf](interfaces/turnierprogramme/funktionaer_einzelaufruf.html), [Gesamt-Liste](interfaces/turnierprogramme/funktionaer_liste.html))
 
 # Allgemeines #
 
@@ -29,8 +30,8 @@ tagline: Dokumentation
     * [Gesamt nach Wettbewerbsart](interfaces/turnierprogramme/startliste_wettbewerbsart.html)
   * [Ranglisten](interfaces/turnierprogramme/rangliste.html)
   * Funktionäre/Lizenzträger
-    * Einzelaufruf
-    * Gesamt-Liste
+    * [Einzelaufruf](interfaces/turnierprogramme/funktionaer_einzelaufruf.html)
+    * [Gesamt-Liste](interfaces/turnierprogramme/funktionaer_liste.html)
   * Aufstiegstabellen
   * Ergebnisse
   * Wertungsrichterzettel
