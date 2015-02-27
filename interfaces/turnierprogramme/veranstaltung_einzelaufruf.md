@@ -197,6 +197,8 @@ tagline: v1.4.1
 	]
 }</code></pre>
 
+[Komplett-Beispiel](../../examples/turnierliste.json)
+
 * * *
 
 [zurück](javascript:history.go(-1))
