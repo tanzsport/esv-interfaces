@@ -29,5 +29,7 @@
     - text: Aufstiegstabellen
       url: /interfaces/turnierprogramme/aufstiegstabellen.html
       divider: true
-#    - text: Ergebnisse
+    - text: Ergebnisse
+      url: /interfaces/turnierprogramme/ergebnis.html
+      divider: true
 #    - text: Wertungsrichterzettel

@@ -10,6 +10,7 @@ tagline: Dokumentation
 **03.03.2015**
 
 * Wettbewerbsarten und Tänze im [Schlüsselverzeichnis](schluesselverzeichnis.html) korrigiert
+* Interface [Ergebnisse](interfaces/turnierprogramme/ergebnis.html) ergänzt
 * [API-Responses](api_response.html) ergänzt
 
 **27.02.2015** 
@@ -40,7 +41,7 @@ tagline: Dokumentation
     * [Einzelaufruf](interfaces/turnierprogramme/funktionaer_einzelaufruf.html)
     * [Gesamt-Liste](interfaces/turnierprogramme/funktionaer_liste.html)
   * [Aufstiegstabellen](interfaces/turnierprogramme/aufstiegstabellen.html)
-  * Ergebnisse
+  * [Ergebnisse](interfaces/turnierprogramme/ergebnis.html)
   * Wertungsrichterzettel
     * Datei-Upload (PDF)
     * digitale WR-Zettel
