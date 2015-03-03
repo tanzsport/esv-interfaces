@@ -4,6 +4,8 @@
       url: /umgebungen_systeme.html
     - text: Schlüsselverzeichnis
       url: /schluesselverzeichnis.html
+    - text: API-Responses
+      url: /api_response.html
 - text: Turnierprogramme
   subitems:
     - text: Veranstaltungen

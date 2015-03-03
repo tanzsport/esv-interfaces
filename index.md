@@ -10,6 +10,7 @@ tagline: Dokumentation
 **03.03.2015**
 
 * Wettbewerbsarten und Tänze im [Schlüsselverzeichnis](schluesselverzeichnis.html) korrigiert
+* [API-Responses](api_response.html) ergänzt
 
 **27.02.2015** 
 
@@ -24,6 +25,7 @@ tagline: Dokumentation
 
 * [Umgebungen und Systeme](umgebungen_systeme.html)
 * [Schlüsselverzeichnis](schluesselverzeichnis.html)
+* [API-Responses](api_response.html)
 
 # Interfaces #
 * Turnierprogramme
