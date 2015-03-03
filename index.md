@@ -7,6 +7,10 @@ tagline: Dokumentation
 
 # Aktualisierungen #
 
+**03.03.2015**
+
+* Wettbewerbsarten und Tänze im [Schlüsselverzeichnis](schluesselverzeichnis.html) korrigiert
+
 **27.02.2015** 
 
 * Startgruppen-Angabe in [Startliste](interfaces/turnierprogramme/startliste_veranstaltung.html) korrigiert (kein Leerzeichen)
