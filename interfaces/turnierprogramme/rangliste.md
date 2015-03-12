@@ -1,14 +1,17 @@
 ---
 layout: page
 title: Ranglisten
-tagline: v1.4.1
+tagline: v1.5.0
 ---
 {% include JB/setup %}
 
 ### HTTP-Verb ###
 	GET
 
-### URL ###
+### URL (ohne Stichtag) ###
+	/api/v1/ranglisten/{ranglistenId1},{ranglistenId2},…
+
+### URL (mit Stichtag) ###
 	/api/v1/ranglisten/{stichtag}/{ranglistenId1},{ranglistenId2},…
 
 #### Parameter ####
