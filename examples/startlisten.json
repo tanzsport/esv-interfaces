@@ -1,6 +1,6 @@
 {
     "status": 2,
-    "nachmeldungen": false,
+    "nachmeldungen": [],
     "starter": [
         {
             "id": 4000,

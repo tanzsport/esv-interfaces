@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Startliste (Veranstaltung)
-tagline: v1.4.1
+tagline: v1.5.0
 ---
 {% include JB/setup %}
 
@@ -16,8 +16,8 @@ tagline: v1.4.1
 * **veranstaltungsId**: ID der Veranstaltung gem. [Veranstaltungsliste](veranstaltung_liste.html)
 
 ### Rückgabe ###
-* Gültigkeits-Flag für Meldestand (0 = Turniermeldungen noch nicht gestartet, 1 = Meldestand noch nicht final, 2 = Meldestand final) [status]
-* Nachmeldungen möglich-Flag [nachmeldungen]
+* Gültigkeits-Flag für Meldestand (0 = Turniermeldungen noch nicht gestartet, 1 = Meldestand noch nicht final, 2 = Meldestand final) [status]; NULL in Gesamt-Starterliste
+* Array Nachmeldungen möglich: Liste der Turnier-IDs mit Nachmeldeerlaubnis [nachmeldungen]; NULL in Gesamt-Starterliste
 * Array Starter [starter]
   * Starter-ID [id]
   * Team (optional, nur bei Formations-, Small-Group- und Mannschaftswettbewerben) [team]
@@ -34,7 +34,7 @@ tagline: v1.4.1
 
 <pre class="line-numbers"><code class="language-javascript">{
 	"status": 1,
-	"nachmeldungen": false,
+	"nachmeldungen": [],
     "starter": [
         {
             "id": 4000,

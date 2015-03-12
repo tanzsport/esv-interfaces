@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Startliste (Wettbewerbsart)
-tagline: v1.4.1
+tagline: v1.5.0
 ---
 {% include JB/setup %}
 
@@ -16,7 +16,7 @@ tagline: v1.4.1
 * **wettbewerbsart**: Wettbewerbsart
 
 ### Rückgabe ###
-Wie [Startliste für Veranstaltung](startliste_veranstaltung.html), jedoch ohne die Felder *Titel*, *Vorname*, *Nachname*, *Geschlecht*.
+Wie [Startliste für Veranstaltung](startliste_veranstaltung.html), jedoch ohne die Felder *Titel*, *Vorname*, *Nachname*, *Geschlecht* im Starter-Array. Die globalen Felder [status] und [nachmeldungen] sind NULL.
 
 * * *
 
