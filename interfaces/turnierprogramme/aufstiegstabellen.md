@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Aufstiegstabellen
-tagline: v1.4.1
+tagline: v1.5.0
 ---
 {% include JB/setup %}
 
@@ -18,7 +18,8 @@ tagline: v1.4.1
 
 ### Rückgabe ###
 
-* Array  * Landesverbände (Array, Landesverbände, für die die Tabelle gültig ist, z.Zt. alle) [ltv]  * Mindest-Punkte (Mindest-Punkte, die zum Erreichen einer Platzierung erforderlich sind) [minPunkte]  * Tabellen (Array) [tabellen]	* Startgruppen (Array) [startgruppen]	* Turnierart [turnierart]	* Kriterien (Array, aufsteigend sortiert nach Klasse) [kriterien]	  * Klasse (Ist-Klasse des Paares) [klasse]	  * Punkte (erforderliche Punkte für Aufstieg) [punkte]	  * Plätze (erforderliche Plätze für Aufstieg) [plaetze]	  * Platzierung Bis Platz [bisPlatz]	  * Doppelstart: true/false, kennzeichnet Aufstiege in Startklassen, die nur im Doppelstart genutzt werden können [doppelstart]
+* Array  * Landesverbände (Array, Landesverbände, für die die Tabelle gültig ist, z.Zt. alle) [ltv]  * Mindest-Punkte (Mindest-Punkte, die zum Erreichen einer Platzierung erforderlich sind) [minPunkte]  * Tabellen (Array) [tabellen]	* Startgruppen (Array) [startgruppen]	* Turnierart [turnierart]	* Kriterien (Array, aufsteigend sortiert nach Klasse) [kriterien]	  * Klasse (Ist-Klasse des Paares) [klasse]
+	  * Ziel-Klasse des Aufstiegs [zielklasse]. Bei Ist-Klasse, die keinen Aufstieg ermöglichen wird NULL zurückgeliefert (z.B. BSW)	  * Punkte (erforderliche Punkte für Aufstieg) [punkte]	  * Plätze (erforderliche Plätze für Aufstieg) [plaetze]	  * Platzierung Bis Platz [bisPlatz]	  * Doppelstart: true/false, kennzeichnet Aufstiege in Startklassen, die nur im Doppelstart genutzt werden können [doppelstart]
 #### Beispiel ####
 
 <pre class="line-numbers"><code class="language-javascript">[
@@ -32,6 +33,7 @@ tagline: v1.4.1
 				"kriterien": [
 					{
 						"klasse": "BSW",
+						"zielklasse": null,
 						"punkte": 25,
 						"plaetze": 7,
 						"bisPlatz": 3,
@@ -39,6 +41,7 @@ tagline: v1.4.1
 					},
 					{
 						"klasse": "D",
+						"zielklasse": "C",
 						"punkte": 25,
 						"plaetze": 7,
 						"bisPlatz": 3,
@@ -46,6 +49,7 @@ tagline: v1.4.1
 					},
 					{
 						"klasse": "C",
+						"zielklasse": "B",
 						"punkte": 30,
 						"plaetze": 7,
 						"bisPlatz": 3,
