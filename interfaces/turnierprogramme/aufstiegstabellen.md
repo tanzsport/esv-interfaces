@@ -2,6 +2,7 @@
 layout: page
 title: Aufstiegstabellen
 tagline: v1.5.0
+
 ---
 {% include JB/setup %}
 

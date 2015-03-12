@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Funktionäre/Lizenzträger (Liste)
-tagline: v1.4.1
+tagline: v1.5.0
+
 ---
 {% include JB/setup %}
 

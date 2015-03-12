@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ergebnisse
-tagline: v1.4.1
+tagline: v1.5.0
 
 ---
 {% include JB/setup %}

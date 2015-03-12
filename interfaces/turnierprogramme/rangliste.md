@@ -2,6 +2,7 @@
 layout: page
 title: Ranglisten
 tagline: v1.5.0
+
 ---
 {% include JB/setup %}
 
