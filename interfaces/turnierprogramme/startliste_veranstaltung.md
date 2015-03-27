@@ -81,7 +81,7 @@ tagline: v1.5.0
             "startbuch": [
                 {
                     "turnierart": "Lat",
-                    "startgruppe": "Kin.II",
+                    "startgruppe": "KinII",
                     "startliga": null,
                     "startklasse": "D",
                     "naechsteStartklasse": "C",
@@ -104,7 +104,7 @@ tagline: v1.5.0
                 },
                 {
                     "turnierart": "Std",
-                    "startgruppe": "Kin.II",
+                    "startgruppe": "KinII",
                     "startliga": null,
                     "startklasse": "D",
                     "naechsteStartklasse": "C",
