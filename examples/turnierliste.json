@@ -80,7 +80,7 @@
             "flaechenId": "Fl. 1+2",
             "wettbewerbsart": "Einzel",
             "turnierform": "RLT",
-            "startgruppe": "Hgr.",
+            "startgruppe": "Hgr",
             "startklasseLiga": "S",
             "turnierart": "Std",
             "zulassung": [
@@ -124,7 +124,7 @@
             "flaechenId": "Fl. 3",
             "wettbewerbsart": "Einzel",
             "turnierform": "OT",
-            "startgruppe": "Sen.I",
+            "startgruppe": "SenI",
             "startklasseLiga": "D",
             "turnierart": "Lat",
             "zulassung": [
@@ -168,7 +168,7 @@
             "flaechenId": "Fl. 3",
             "wettbewerbsart": "Einzel",
             "turnierform": "OT",
-            "startgruppe": "Sen.I",
+            "startgruppe": "SenI",
             "startklasseLiga": "C",
             "turnierart": "Lat",
             "zulassung": [
@@ -212,7 +212,7 @@
             "flaechenId": "Fl. 1",
             "wettbewerbsart": "Einzel",
             "turnierform": "OT",
-            "startgruppe": "Hgr.",
+            "startgruppe": "Hgr",
             "startklasseLiga": "D",
             "turnierart": "Std",
             "zulassung": [
@@ -256,7 +256,7 @@
             "flaechenId": "Fl. 1",
             "wettbewerbsart": "Einzel",
             "turnierform": "OT",
-            "startgruppe": "Hgr.",
+            "startgruppe": "Hgr",
             "startklasseLiga": "C",
             "turnierart": "Std",
             "zulassung": [

@@ -177,7 +177,7 @@ tagline: v1.5.0
 			"flaechenId": "Fläche 1",
 			"wettbewerbsart": "Einzel",
 			"turnierform": "OT",
-			"startgruppe": "Hgr.",
+			"startgruppe": "Hgr",
 			"startklasseLiga": "D",
 			"turnierart": "Lat",
 			"zulassung": [
