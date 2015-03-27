@@ -7,6 +7,14 @@ tagline: Dokumentation
 
 # Aktualisierungen #
 
+**27.03.2015**
+
+* Schnittstellendefinitionen auf Version 1.5.0 aktualisiert
+  * [Startlisten Veranstaltung](interfaces/turnierprogramme/startliste_veranstaltung.html): Flag Nachmeldeerlaubnis nun Array; Klarstellung zu globalen Parametern in der [Gesamtstartliste nach Wettbewerbsart](interfaces/turnierprogramme/startliste_wettbewerbsart.html) je Wettbewerbsart
+  * [Ranglisten](interfaces/turnierprogramme/rangliste.html): Beispielaufruf ohne Stichtag ergänzt
+  * [Aufstiegstabellen](interfaces/turnierprogramme/aufstiegstabellen.html): Feld Zielklasse ergänzt
+  * neue Schnittstelle: [ausgefallenes Turnier](interfaces/turnierprogramme/ausgefallen.html)
+
 **03.03.2015**
 
 * Wettbewerbsarten und Tänze im [Schlüsselverzeichnis](schluesselverzeichnis.html) korrigiert
@@ -41,7 +49,9 @@ tagline: Dokumentation
     * [Einzelaufruf](interfaces/turnierprogramme/funktionaer_einzelaufruf.html)
     * [Gesamt-Liste](interfaces/turnierprogramme/funktionaer_liste.html)
   * [Aufstiegstabellen](interfaces/turnierprogramme/aufstiegstabellen.html)
-  * [Ergebnisse](interfaces/turnierprogramme/ergebnis.html)
+  * Ergebnisse
+    * [Ergebnisse](interfaces/turnierprogramme/ergebnis.html)
+    * [ausgefallenes Turnier](interfaces/turnierprogramme/ausgefallen.html)
   * Wertungsrichterzettel
     * Datei-Upload (PDF)
     * digitale WR-Zettel
