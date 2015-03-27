@@ -25,11 +25,11 @@ tagline: v1.6.0
 
 <pre class="line-numbers"><code class="language-javascript">[
 	{
-		"ltv": ["LTVB", "TBW", "LTV Berlin", "..."],
+		"ltv": ["LTVB", "TBW", "LTVBerlin", "..."],
 		"minPunkte": 2,
 		"tabellen": [
 			{
-				"startgruppen": ["Kin.I", "Kin.II"],
+				"startgruppen": ["KinI", "KinII"],
 				"turnierart": "Std",
 				"kriterien": [
 					{

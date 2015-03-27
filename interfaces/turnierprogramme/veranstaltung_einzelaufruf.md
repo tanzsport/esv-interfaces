@@ -107,17 +107,14 @@ tagline: v1.6.0
 	"veranstalter": {
 		"id": 8000,
 		"name": "Landestanzsportverband Berlin e.V.",
-		"ltv": {
-			"id": 3
-			"name": "LTV Berlin",
-		}
+		"ltv": null
 	},
 	"ausrichter": {
 		"id": 9000,
 		"name": "Ausrichtergemeinschaft Blaues Band der Spree",
 		"ltv": {
 			"id": 3
-			"name": "LTV Berlin",
+			"name": "LTVBerlin",
 		}
 	},
 	"titel": "Blaues Band der Spree",

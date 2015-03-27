@@ -42,7 +42,7 @@ Die Prüfsumme besteht aus den ersten 6 Stellen des SHA-1-Hashs des JSON-Datenst
             "nachname": "Schulze",
             "club": {
                 "name": "Verein P",
-                "ltv": "LTV Berlin"
+                "ltv": "LTVBerlin"
             },
             "staat": "GER"
         }
@@ -54,7 +54,7 @@ Die Prüfsumme besteht aus den ersten 6 Stellen des SHA-1-Hashs des JSON-Datenst
             "nachname": "Sprecher",
             "club": {
                 "name": "Verein U",
-                "ltv": "LTV Berlin"
+                "ltv": "LTVBerlin"
             },
             "staat": "GER"
         }
@@ -66,7 +66,7 @@ Die Prüfsumme besteht aus den ersten 6 Stellen des SHA-1-Hashs des JSON-Datenst
             "nachname": "Werner",
             "club": {
                 "name": "Verein V",
-                "ltv": "LTV Bremen"
+                "ltv": "LTVBremen"
             },
             "staat": "GER"
         }
@@ -78,7 +78,7 @@ Die Prüfsumme besteht aus den ersten 6 Stellen des SHA-1-Hashs des JSON-Datenst
             "nachname": "Hechel",
             "club": {
                 "name": "Verein W",
-                "ltv": "LTV Berlin"
+                "ltv": "LTVBerlin"
             },
             "staat": "GER"
         }

@@ -11,17 +11,14 @@
     "veranstalter": {
         "id": 80,
         "name": "Landestanzportverband Berlin e.V.",
-        "ltv": {
-            "id": 3,
-            "name": "Landestanzsportverband Berlin e.V."
-        }
+        "ltv": null
     },
     "ausrichter": {
         "id": 8002,
         "name": "OTK Schwarz-Wei\u00df 1922 im SCS Berlin e.V.",
         "ltv": {
             "id": 3,
-            "name": "Landestanzsportverband Berlin e.V."
+            "name": "LTVBerlin"
         },
         "kontaktTelefon": "030 3800240",
         "kontaktEmail": "otk@schwarz-weiss.de"
@@ -74,7 +71,7 @@
                 "name": "OTK Schwarz-Wei\u00df 1922 im SCS Berlin e.V.",
                 "ltv": {
                     "id": 3,
-                    "name": "Landestanzsportverband Berlin e.V."
+                    "name": "LTVBerlin"
                 }
             },
             "flaechenId": "Fl. 1+2",
@@ -108,17 +105,14 @@
             "veranstalter": {
                 "id": 80,
                 "name": "Landestanzportverband Berlin e.V.",
-                "ltv": {
-                    "id": 3,
-                    "name": "Landestanzsportverband Berlin e.V."
-                }
+                "ltv": null
             },
             "ausrichter": {
                 "id": 8001,
                 "name": "btc Gr\u00fcn-Gold der TiB 1848 Berlin e.V.",
                 "ltv": {
                     "id": 3,
-                    "name": "Landestanzsportverband Berlin e.V."
+                    "name": "LTVBerlin"
                 }
             },
             "flaechenId": "Fl. 3",
@@ -152,17 +146,14 @@
             "veranstalter": {
                 "id": 80,
                 "name": "Landestanzportverband Berlin e.V.",
-                "ltv": {
-                    "id": 3,
-                    "name": "Landestanzsportverband Berlin e.V."
-                }
+                "ltv": null
             },
             "ausrichter": {
                 "id": 8001,
                 "name": "btc Gr\u00fcn-Gold der TiB 1848 Berlin e.V.",
                 "ltv": {
                     "id": 3,
-                    "name": "Landestanzsportverband Berlin e.V."
+                    "name": "LTVBerlin"
                 }
             },
             "flaechenId": "Fl. 3",
@@ -196,17 +187,14 @@
             "veranstalter": {
                 "id": 80,
                 "name": "Landestanzportverband Berlin e.V.",
-                "ltv": {
-                    "id": 3,
-                    "name": "Landestanzsportverband Berlin e.V."
-                }
+                "ltv": null
             },
             "ausrichter": {
                 "id": 8002,
                 "name": "OTK Schwarz-Wei\u00df 1922 im SCS Berlin e.V.",
                 "ltv": {
                     "id": 3,
-                    "name": "Landestanzsportverband Berlin e.V."
+                    "name": "LTVBerlin"
                 }
             },
             "flaechenId": "Fl. 1",
@@ -240,17 +228,14 @@
             "veranstalter": {
                 "id": 80,
                 "name": "Landestanzportverband Berlin e.V.",
-                "ltv": {
-                    "id": 3,
-                    "name": "Landestanzsportverband Berlin e.V."
-                }
+                "ltv": null
             },
             "ausrichter": {
                 "id": 8002,
                 "name": "OTK Schwarz-Wei\u00df 1922 im SCS Berlin e.V.",
                 "ltv": {
                     "id": 3,
-                    "name": "Landestanzsportverband Berlin e.V."
+                    "name": "LTVBerlin"
                 }
             },
             "flaechenId": "Fl. 1",

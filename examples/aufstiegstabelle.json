@@ -1,10 +1,10 @@
 [
 	{
-		"ltv": ["LTVB", "TBW", "LTV Berlin", "..."],
+		"ltv": ["LTVB", "TBW", "LTVBerlin", "..."],
 		"minPunkte": 2,
 		"tabellen": [
 			{
-				"startgruppen": ["Kin.I", "Kin.II"],
+				"startgruppen": ["KinI", "KinII"],
 				"turnierart": "Std",
 				"kriterien": [
 					{
@@ -34,7 +34,7 @@
 				]
 			},
 			{
-				"startgruppen": ["Kin.I", "Kin.II"],
+				"startgruppen": ["KinI", "KinII"],
 				"turnierart": "Lat",
 				"kriterien": [
 					{
@@ -64,7 +64,7 @@
 				]
 			},
 			{
-				"startgruppen": ["Jun.I"],
+				"startgruppen": ["JunI"],
 				"turnierart": "Std",
 				"kriterien": [
 					{
@@ -94,7 +94,7 @@
 				]
 			},
 			{
-				"startgruppen": ["Jun.I"],
+				"startgruppen": ["JunI"],
 				"turnierart": "Lat",
 				"kriterien": [
 					{
@@ -124,7 +124,7 @@
 				]
 			},
 			{
-				"startgruppen": ["Jun.II"],
+				"startgruppen": ["JunII"],
 				"turnierart": "Std",
 				"kriterien": [
 					{
@@ -162,7 +162,7 @@
 				]
 			},
 			{
-				"startgruppen": ["Jun.II"],
+				"startgruppen": ["JunII"],
 				"turnierart": "Lat",
 				"kriterien": [
 					{

@@ -11,7 +11,7 @@
             "nachname": "Schulze",
             "club": {
                 "name": "Verein P",
-                "ltv": "LTV Berlin"
+                "ltv": "LTVBerlin"
             },
             "staat": "GER"
         },
@@ -21,7 +21,7 @@
             "nachname": "M\u00fctze",
             "club": {
                 "name": "Verein Q",
-                "ltv": "LTV Berlin"
+                "ltv": "LTVBerlin"
             },
             "staat": "GER"
         },
@@ -63,7 +63,7 @@
             "nachname": "Sprecher",
             "club": {
                 "name": "Verein U",
-                "ltv": "LTV Berlin"
+                "ltv": "LTVBerlin"
             },
             "staat": "GER"
         }
@@ -75,7 +75,7 @@
             "nachname": "Werner",
             "club": {
                 "name": "Verein V",
-                "ltv": "LTV Bremen"
+                "ltv": "LTVBremen"
             },
             "staat": "GER"
         }
@@ -87,7 +87,7 @@
             "nachname": "Hechel",
             "club": {
                 "name": "Verein W",
-                "ltv": "LTV Berlin"
+                "ltv": "LTVBerlin"
             },
             "staat": "GER"
         }

@@ -32,7 +32,7 @@ tagline: v1.6.0
             "name": "OTK Schwarz-Wei\u00df 1922 im SCS Berlin e.V.",
             "ltv": {
                 "id": 3,
-                "name": "LTV Berlin"
+                "name": "LTVBerlin"
             }
         },
         "staat": "GER",
