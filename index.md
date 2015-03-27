@@ -14,6 +14,7 @@ tagline: Dokumentation
   * [Ranglisten](interfaces/turnierprogramme/rangliste.html): Beispielaufruf ohne Stichtag ergänzt
   * [Aufstiegstabellen](interfaces/turnierprogramme/aufstiegstabellen.html): Feld Zielklasse ergänzt
   * neue Schnittstelle: [ausgefallenes Turnier](interfaces/turnierprogramme/ausgefallen.html)
+  * Leerzeichen und Punkte aus Konstanten im [Schlüsselverzeichnis](schluesselverzeichnis.html) entfernt (LTVs, Startgruppen, Startklassen, RL-IDs) korrigiert
 
 **03.03.2015**
 
