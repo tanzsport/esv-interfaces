@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ausgefallenes Turnier
-tagline: v1.5.0
+tagline: v1.6.0
 
 ---
 {% include JB/setup %}

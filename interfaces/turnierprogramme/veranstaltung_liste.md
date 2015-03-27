@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Veranstaltung (Liste)
-tagline: v1.5.0
+tagline: v1.6.0
 
 ---
 {% include JB/setup %}

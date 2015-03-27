@@ -7,14 +7,15 @@ tagline: Dokumentation
 
 # Aktualisierungen #
 
-**27.03.2015**
+**25.03.2015**
 
-* Schnittstellendefinitionen auf Version 1.5.0 aktualisiert
+* Schnittstellendefinitionen auf Version 1.6.0 aktualisiert
   * [Startlisten Veranstaltung](interfaces/turnierprogramme/startliste_veranstaltung.html): Flag Nachmeldeerlaubnis nun Array; Klarstellung zu globalen Parametern in der [Gesamtstartliste nach Wettbewerbsart](interfaces/turnierprogramme/startliste_wettbewerbsart.html) je Wettbewerbsart
   * [Ranglisten](interfaces/turnierprogramme/rangliste.html): Beispielaufruf ohne Stichtag ergänzt
   * [Aufstiegstabellen](interfaces/turnierprogramme/aufstiegstabellen.html): Feld Zielklasse ergänzt
   * neue Schnittstelle: [ausgefallenes Turnier](interfaces/turnierprogramme/ausgefallen.html)
   * Leerzeichen und Punkte aus Konstanten im [Schlüsselverzeichnis](schluesselverzeichnis.html) entfernt (LTVs, Startgruppen, Startklassen, RL-IDs) korrigiert
+  * [Ergebnis-Interface](interfaces/turnierprogramme/ergebnis.html) ergänzt um Sterne-Info bei Startern
 
 **03.03.2015**
 
