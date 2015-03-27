@@ -16,6 +16,7 @@ tagline: Dokumentation
   * neue Schnittstelle: [ausgefallenes Turnier](interfaces/turnierprogramme/ausgefallen.html)
   * Leerzeichen und Punkte aus Konstanten im [Schlüsselverzeichnis](schluesselverzeichnis.html) entfernt (LTVs, Startgruppen, Startklassen, RL-IDs) korrigiert
   * [Ergebnis-Interface](interfaces/turnierprogramme/ergebnis.html) ergänzt um Sterne-Info bei Startern
+* Seite über [Zertifizierungsdokumente](dokumente.html) ergänzt
 
 **03.03.2015**
 
@@ -37,6 +38,7 @@ tagline: Dokumentation
 * [Umgebungen und Systeme](umgebungen_systeme.html)
 * [Schlüsselverzeichnis](schluesselverzeichnis.html)
 * [API-Responses](api_response.html)
+* [Zertifizierungsdokumente](dokumente.html)
 
 # Interfaces #
 * Turnierprogramme

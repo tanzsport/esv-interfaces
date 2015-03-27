@@ -6,6 +6,8 @@
       url: /schluesselverzeichnis.html
     - text: API-Responses
       url: /api_response.html
+    - text: Zertifizierungsdokumente
+      url: /dokumente.html
 - text: Turnierprogramme
   subitems:
     - text: Veranstaltungen
