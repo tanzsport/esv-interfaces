@@ -156,7 +156,7 @@
 						"zielklasse": "A",
 						"punkte": 80,
 						"plaetze": 7,
-						"platzBis": 3,
+						"bisPlatz": 3,
 						"doppelstart": true
 					}
 				]
@@ -194,7 +194,7 @@
 						"zielklasse": "A",
 						"punkte": 100,
 						"plaetze": 7,
-						"platzBis": 3,
+						"bisPlatz": 3,
 						"doppelstart": true
 					}
 				]

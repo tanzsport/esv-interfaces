@@ -7,6 +7,9 @@ tagline: Dokumentation
 
 # Aktualisierungen #
 
+**10.04.2015**
+* [Aufstiegstabellen](interfaces/turnierprogramme/aufstiegstabellen.html): Korrektur Feldname *bisPlatz* im Gesamtbeispiel
+
 **25.03.2015**
 
 * Schnittstellendefinitionen auf Version 1.6.0 aktualisiert
