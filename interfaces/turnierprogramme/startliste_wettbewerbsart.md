@@ -17,7 +17,9 @@ tagline: v1.6.0
 * **wettbewerbsart**: Wettbewerbsart
 
 ### Rückgabe ###
-Wie [Startliste für Veranstaltung](startliste_veranstaltung.html), jedoch ohne die Felder *Titel*, *Vorname*, *Nachname*, *Geschlecht* im Starter-Array. Die globalen Felder [status] und [nachmeldungen] sind NULL.
+Wie [Startliste für Veranstaltung](startliste_veranstaltung.html). Die Felder [titel], [vorname], [nachname], [geschlecht] sind NULL, das Feld [startmeldungen] ist ein leeres Array. Die globalen Felder [status] und [nachmeldungen] sind NULL.
+
+[Komplett-Beispiel](../../examples/startliste_wettbewerbsart.json)
 
 * * *
 

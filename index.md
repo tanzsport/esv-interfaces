@@ -10,6 +10,7 @@ tagline: Dokumentation
 **29.04.2015**
 
 * [Startlisten Veranstaltung](interfaces/turnierprogramme/startliste_veranstaltung.html): Fehlerkorrektur im Gesamtbeispiel (keine Startbuchdaten für Grenzverkehrspaare)
+* [Startliste Wettbewerbsart](interfaces/turnierprogramme/startliste_wettbewerbsart.html): Erläuterungen erweitert, Gesamtbeispiel ergänzt
 
 **10.04.2015**
 

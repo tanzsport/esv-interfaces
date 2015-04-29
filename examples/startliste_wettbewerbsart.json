@@ -1,0 +1,1773 @@
+{
+    "status": null,
+    "nachmeldungen": null,
+    "starter": [
+        {
+            "id": 4000,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000015",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000029",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8000,
+                "name": "Verein A",
+                "ltv": {
+                    "id": 8,
+                    "name": "TNW"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 2,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 1,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4001,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000037",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000045",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8001,
+                "name": "Verein B",
+                "ltv": {
+                    "id": 3,
+                    "name": "LTVBerlin"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinI",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 3,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinI",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 2,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 2,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4002,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000053",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000061",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8000,
+                "name": "Verein A",
+                "ltv": {
+                    "id": 8,
+                    "name": "TNW"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 5,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 3,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4003,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000070",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000088",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8001,
+                "name": "Verein B",
+                "ltv": {
+                    "id": 3,
+                    "name": "LTVBerlin"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 40,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 6,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": true,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 4,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 2,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": true,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4004,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000096",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000100",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8003,
+                "name": "Verein C",
+                "ltv": {
+                    "id": 7,
+                    "name": "HTV"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 0,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 5,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4005,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000118",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000126",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8001,
+                "name": "Verein A",
+                "ltv": {
+                    "id": 3,
+                    "name": "LTVBerlin"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 0,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 1,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 2,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4006,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000134",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000142",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8004,
+                "name": "Verein D",
+                "ltv": {
+                    "id": 5,
+                    "name": "LTVBr"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinI",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 35,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 6,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": true,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinI",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 2,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": true,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4007,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000155",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000169",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8005,
+                "name": "Verein E",
+                "ltv": {
+                    "id": 3,
+                    "name": "LTVBerlin"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 3,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 2,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4008,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000177",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000185",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8006,
+                "name": "Verein F",
+                "ltv": {
+                    "id": 6,
+                    "name": "TSH"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 0,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 4,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4009,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000193",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000207",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8007,
+                "name": "Verein G",
+                "ltv": {
+                    "id": 3,
+                    "name": "LTVBerlin"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 5,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 2,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4010,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000215",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000223",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8007,
+                "name": "Verein G",
+                "ltv": {
+                    "id": 3,
+                    "name": "LTVBerlin"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinI",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 0,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinI",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 1,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4011,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000231",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000240",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8004,
+                "name": "Verein D",
+                "ltv": {
+                    "id": 5,
+                    "name": "LTVBr"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 0,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 2,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 2,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4012,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000258",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000266",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8008,
+                "name": "Verein H",
+                "ltv": {
+                    "id": 3,
+                    "name": "LTVBerlin"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 2,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 3,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4013,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000274",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000282",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8009,
+                "name": "Verein I",
+                "ltv": {
+                    "id": 3,
+                    "name": "LTVBerlin"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 3,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 4,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 2,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4014,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000295",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000304",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8009,
+                "name": "Verein I",
+                "ltv": {
+                    "id": 3,
+                    "name": "LTVBerlin"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 2,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 5,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4015,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000312",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000325",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8010,
+                "name": "Verein J",
+                "ltv": {
+                    "id": 4,
+                    "name": "LTVS"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 0,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 1,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 2,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4016,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000339",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000347",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8011,
+                "name": "Verein K",
+                "ltv": {
+                    "id": 5,
+                    "name": "LTVBr"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 0,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 0,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "KinII",
+                    "startliga": null,
+                    "startklasse": "D",
+                    "naechsteStartklasse": "C",
+                    "punkte": {
+                        "ist": 2,
+                        "ziel": 25
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4017,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100010016",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": 10070001,
+                    "nationalitaet": "CZE"
+                },
+                {
+                    "id": "DE100010024",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": 10070002,
+                    "nationalitaet": "CZE"
+                }
+            ],
+            "club": {
+                "id": 10001,
+                "name": "Verein Prag",
+                "ltv": null
+            },
+            "staat": "CZE",
+            "meldungen": [],
+            "startbuch": []
+        },
+        {
+            "id": 4018,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100010032",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": 10070003,
+                    "nationalitaet": "DEN"
+                },
+                {
+                    "id": "DE100010045",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": 10070004,
+                    "nationalitaet": "DEN"
+                }
+            ],
+            "club": null,
+            "staat": "DEN",
+            "meldungen": [],
+            "startbuch": []
+        },
+        {
+            "id": 4019,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000517",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000525",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8012,
+                "name": "Verein A",
+                "ltv": {
+                    "id": 8,
+                    "name": "TNW"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": []
+        },
+        {
+            "id": 4020,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000533",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": 10090035,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000541",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": 10090045,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8007,
+                "name": "Verein G",
+                "ltv": {
+                    "id": 3,
+                    "name": "LTVBerlin"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "Jug",
+                    "startliga": null,
+                    "startklasse": "S",
+                    "naechsteStartklasse": null,
+                    "punkte": null,
+                    "platzierungen": null,
+                    "regeln": null,
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "Jug",
+                    "startliga": null,
+                    "startklasse": "A",
+                    "naechsteStartklasse": "S",
+                    "punkte": {
+                        "ist": 249,
+                        "ziel": 250
+                    },
+                    "platzierungen": {
+                        "ist": 9,
+                        "ziel": 10
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4021,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000550",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": 10090055,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000568",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": 10090065,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8004,
+                "name": "Verein D",
+                "ltv": {
+                    "id": 5,
+                    "name": "LTVBr"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "SenII",
+                    "startliga": null,
+                    "startklasse": "B",
+                    "naechsteStartklasse": "A",
+                    "punkte": {
+                        "ist": 35,
+                        "ziel": 100
+                    },
+                    "platzierungen": {
+                        "ist": 1,
+                        "ziel": 5
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "SenIII",
+                    "startliga": null,
+                    "startklasse": "S",
+                    "naechsteStartklasse": null,
+                    "punkte": null,
+                    "platzierungen": null,
+                    "regeln": null,
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4022,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000576",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000584",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8009,
+                "name": "Verein I",
+                "ltv": {
+                    "id": 3,
+                    "name": "LTVBerlin"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Lat",
+                    "startgruppe": "JunI",
+                    "startliga": null,
+                    "startklasse": "B",
+                    "naechsteStartklasse": null,
+                    "punkte": null,
+                    "platzierungen": null,
+                    "regeln": null,
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                },
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "JunI",
+                    "startliga": null,
+                    "startklasse": "C",
+                    "naechsteStartklasse": "B",
+                    "punkte": {
+                        "ist": 65,
+                        "ziel": 30
+                    },
+                    "platzierungen": {
+                        "ist": 6,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 3
+                    },
+                    "flags": {
+                        "laufzettel": false,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4023,
+            "team": null,
+            "personen": [
+                {
+                    "id": "DE100000592",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                },
+                {
+                    "id": "DE100000606",
+                    "titel": null,
+                    "vorname": null,
+                    "nachname": null,
+                    "geschlecht": null,
+                    "wdsfMin": null,
+                    "nationalitaet": "GER"
+                }
+            ],
+            "club": {
+                "id": 8003,
+                "name": "Verein C",
+                "ltv": {
+                    "id": 7,
+                    "name": "HTV"
+                }
+            },
+            "staat": "GER",
+            "meldungen": [],
+            "startbuch": [
+                {
+                    "turnierart": "Std",
+                    "startgruppe": "Hgr",
+                    "startliga": null,
+                    "startklasse": "BSW",
+                    "naechsteStartklasse": null,
+                    "punkte": {
+                        "ist": 99,
+                        "ziel": 100
+                    },
+                    "platzierungen": {
+                        "ist": 6,
+                        "ziel": 7
+                    },
+                    "regeln": {
+                        "minPunkte": 2,
+                        "platzierungBis": 6
+                    },
+                    "flags": {
+                        "laufzettel": true,
+                        "verwarnungSchrittbegrenzung": false
+                    }
+                }
+            ]
+        }
+    ]
+}
