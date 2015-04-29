@@ -1542,7 +1542,7 @@
                     "vorname": "Petr",
                     "nachname": "Cukrad",
                     "geschlecht": "m",
-                    "wdsfMin": 70001,
+                    "wdsfMin": 10070001,
                     "nationalitaet": "CZE"
                 },
                 {
@@ -1551,7 +1551,7 @@
                     "vorname": "Esther",
                     "nachname": "Wolkova",
                     "geschlecht": "w",
-                    "wdsfMin": 70002,
+                    "wdsfMin": 10070002,
                     "nationalitaet": "CZE"
                 }
             ],
@@ -1582,7 +1582,7 @@
                     "vorname": "Lars",
                     "nachname": "Larsen",
                     "geschlecht": "m",
-                    "wdsfMin": 70003,
+                    "wdsfMin": 10070003,
                     "nationalitaet": "DEN"
                 },
                 {
@@ -1591,7 +1591,7 @@
                     "vorname": "Amalia",
                     "nachname": "Formand",
                     "geschlecht": "w",
-                    "wdsfMin": 70004,
+                    "wdsfMin": 10070004,
                     "nationalitaet": "DEN"
                 }
             ],
