@@ -1570,36 +1570,7 @@
                     "startsperre": false
                 }
             ],
-            "startbuch": [
-                {
-                    "turnierart": "Lat",
-                    "startgruppe": "KinII",
-                    "startliga": null,
-                    "startklasse": "D",
-                    "naechsteStartklasse": null,
-                    "punkte": null,
-                    "platzierungen": null,
-                    "regeln": null,
-                    "flags": {
-                        "laufzettel": false,
-                        "verwarnungSchrittbegrenzung": false
-                    }
-                },
-                {
-                    "turnierart": "Std",
-                    "startgruppe": "KinII",
-                    "startliga": null,
-                    "startklasse": "D",
-                    "naechsteStartklasse": null,
-                    "punkte": null,
-                    "platzierungen": null,
-                    "regeln": null,
-                    "flags": {
-                        "laufzettel": false,
-                        "verwarnungSchrittbegrenzung": false
-                    }
-                }
-            ]
+            "startbuch": []
         },
         {
             "id": 4018,
@@ -1635,36 +1606,7 @@
                     "startsperre": false
                 }
             ],
-            "startbuch": [
-                {
-                    "turnierart": "Lat",
-                    "startgruppe": "KinII",
-                    "startliga": null,
-                    "startklasse": "D",
-                    "naechsteStartklasse": null,
-                    "punkte": null,
-                    "platzierungen": null,
-                    "regeln": null,
-                    "flags": {
-                        "laufzettel": false,
-                        "verwarnungSchrittbegrenzung": false
-                    }
-                },
-                {
-                    "turnierart": "Std",
-                    "startgruppe": "KinII",
-                    "startliga": null,
-                    "startklasse": "D",
-                    "naechsteStartklasse": null,
-                    "punkte": null,
-                    "platzierungen": null,
-                    "regeln": null,
-                    "flags": {
-                        "laufzettel": false,
-                        "verwarnungSchrittbegrenzung": false
-                    }
-                }
-            ]
+            "startbuch": []
         }
     ]
 }

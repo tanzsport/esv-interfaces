@@ -7,7 +7,12 @@ tagline: Dokumentation
 
 # Aktualisierungen #
 
+**29.04.2015**
+
+* [Startlisten Veranstaltung](interfaces/turnierprogramme/startliste_veranstaltung.html): Fehlerkorrektur im Gesamtbeispiel (keine Startbuchdaten für Grenzverkehrspaare)
+
 **10.04.2015**
+
 * [Aufstiegstabellen](interfaces/turnierprogramme/aufstiegstabellen.html): Korrektur Feldname *bisPlatz* im Gesamtbeispiel
 
 **25.03.2015**
