@@ -59,7 +59,7 @@
             "datumVon": "2014-04-18T00:00:00+0200",
             "datumBis": "2014-04-18T00:00:00+0200",
             "startzeitPlan": "09:00",
-            "startzeitKorrigiert": null,
+            "startzeitPlanKorrigiert": null,
             "titel": null,
             "veranstalter": {
                 "id": 1,
@@ -88,7 +88,7 @@
             "aufstiegsturnier": true,
             "ranglistenId": "Hgr-Std",
             "wdsfTurnierId": 4711,
-            "startgebuehr": 25,
+            "startgebuehr": "25 EUR",
             "bemerkungen": null,
             "wertungsrichter": null,
             "turnierleiter": null,
@@ -100,7 +100,7 @@
             "datumVon": "2014-04-18T00:00:00+0200",
             "datumBis": "2014-04-18T00:00:00+0200",
             "startzeitPlan": "09:00",
-            "startzeitKorrigiert": null,
+            "startzeitPlanKorrigiert": null,
             "titel": null,
             "veranstalter": {
                 "id": 80,
@@ -141,7 +141,7 @@
             "datumVon": "2014-04-18T00:00:00+0200",
             "datumBis": "2014-04-18T00:00:00+0200",
             "startzeitPlan": "09:15",
-            "startzeitKorrigiert": null,
+            "startzeitPlanKorrigiert": null,
             "titel": null,
             "veranstalter": {
                 "id": 80,
@@ -182,7 +182,7 @@
             "datumVon": "2014-04-18T00:00:00+0200",
             "datumBis": "2014-04-18T00:00:00+0200",
             "startzeitPlan": "10:15",
-            "startzeitKorrigiert": null,
+            "startzeitPlanKorrigiert": null,
             "titel": null,
             "veranstalter": {
                 "id": 80,
@@ -223,7 +223,7 @@
             "datumVon": "2014-04-18T00:00:00+0200",
             "datumBis": "2014-04-18T00:00:00+0200",
             "startzeitPlan": "10:15",
-            "startzeitKorrigiert": null,
+            "startzeitPlanKorrigiert": null,
             "titel": null,
             "veranstalter": {
                 "id": 80,
