@@ -43,9 +43,9 @@ tagline: v1.6.0
   * Titel (optional) [titel]
   * Bemerkungen (Freitext) [bemerkungen]
   * Array Wertungsrichter (optional) [wertungsrichter]
-  	* Inhalte wie bei [Einzelaufruf Funktionäre](funktionaere_einzelaufruf.html)
+  	* Inhalte wie bei [Einzelaufruf Funktionäre](funktionaer_einzelaufruf.html)
   * Array Funktionäre (TL, BS, CHM; optional) [funktionaere]
-    * Inhalte wie bei [Einzelaufruf Funktionäre](funktionaere_einzelaufruf.html)
+    * Inhalte wie bei [Einzelaufruf Funktionäre](funktionaer_einzelaufruf.html)
   * Array Flächen [flaechen]
   	* Flächen-Bezeichnung [id]
   	* Typ (Text: z.B. Parkett, Kunststoff, Stein) [typ]
@@ -71,7 +71,6 @@ tagline: v1.6.0
   	  	* ID [id]
   	  	* Name [name]
   	 * Flächen-ID [flaechenId]
-  	 * Wettbewerbsart [wettbewerbsart]
   	 * Wettbewerbsart (z.B. Einzel, Formation, Solo, Duo,…) [wettbewerbsart]
   	 * Turnierform [turnierform]
   	 * Startgruppe [startgruppe]
@@ -81,7 +80,7 @@ tagline: v1.6.0
   	   * Array; mögliche Werte: WDSF, EU, DTV + LTVs
   	 * Wanderpokal: true/false [wanderpokal]
   	 * Turnierrang (numerisch) [turnierrang]
-  	 * Flag Aufstiegsturnier (Vergabe von Aufstiegspunkten und –platzierungen ja/nein)
+  	 * Flag Aufstiegsturnier (Vergabe von Aufstiegspunkten und –platzierungen ja/nein) [aufstiegsturnier]
   	 * Ranglisten-ID (optional, bei Ranglistenturnieren und ggf. bei DM) [ranglistenId]
   	 * WDSF-Turnier-ID (optional) [wdsfTurnierId]
   	 * Startgebühr in EUR (optional, Zahlwert oder Freitext) [startgebuehr]
