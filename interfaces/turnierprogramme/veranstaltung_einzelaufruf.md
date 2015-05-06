@@ -158,16 +158,16 @@ tagline: v1.6.0
 				"id": 8000,
 				"name": "Landestanzsportverband Berlin e.V.",
 				"ltv": {
-					"id": 3
-					"name": "LTV Berlin",
+					"id": 3,
+					"name": "LTV Berlin"
 				}
 			},
 			"ausrichter": {
 				"id": 9000,
 				"name": "Ausrichtergemeinschaft Blaues Band der Spree",
 				"ltv": {
-					"id": 3
-					"name": "LTV Berlin",
+					"id": 3,
+					"name": "LTV Berlin"
 				}
 			},
 			"flaechenId": "Fläche 1",
