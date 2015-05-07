@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Funktionäre/Lizenzträger (Einzelaufruf)
-tagline: v1.6.0
+tagline: v1.6.1
 
 ---
 {% include JB/setup %}
