@@ -36,4 +36,8 @@
       url: /interfaces/turnierprogramme/ergebnis.html
     - text: ausgefallenes Turnier
       url: /interfaces/turnierprogramme/ausgefallen.html
-#    - text: Wertungsrichterzettel
+    - text: Wertungsrichterzettel
+    - text: PDF
+      url: /interfaces/turnierprogramme/wrzettel_pdf.html
+    - text: Digital
+      url: /interfaces/turnierprogramme/wrzettel_digi.html

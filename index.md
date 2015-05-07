@@ -7,6 +7,10 @@ tagline: Dokumentation
 
 # Aktualisierungen #
 
+**07.05.2015**
+
+* neu: [WR-Zettel PDF](interfaces/turnierprogramme/wrzettel_pdf.html) und [WR-Zettel digital](interfaces/turnierprogramme/wrzettel_digi.html)
+
 **29.04.2015**
 
 * [Startlisten Veranstaltung](interfaces/turnierprogramme/startliste_veranstaltung.html): Fehlerkorrektur im Gesamtbeispiel (keine Startbuchdaten für Grenzverkehrspaare)
@@ -67,5 +71,5 @@ tagline: Dokumentation
     * [Ergebnisse](interfaces/turnierprogramme/ergebnis.html)
     * [ausgefallenes Turnier](interfaces/turnierprogramme/ausgefallen.html)
   * Wertungsrichterzettel
-    * Datei-Upload (PDF)
-    * digitale WR-Zettel
+    * [PDF](interfaces/turnierprogramme/wrzettel_pdf.html)
+    * [Digital](interfaces/turnierprogramme/wrzettel_digi.html)
