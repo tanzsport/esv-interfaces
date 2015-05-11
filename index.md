@@ -9,6 +9,8 @@ tagline: Dokumentation
 
 **07.05.2015**
 
+* Aktualisierung auf Version 1.6.1 inkl. [Dokumenten](dokumente.html)
+  * Zusatzinfo [Ergebnisupload](interfaces/turnierprogramme/ergebnis.html) Verwarnungs/Disqualifikations-Flag  * [Schlüsselverzeichnis](schluesselverzeichnis.html) WR-Lizenzen: WR-B getrennt in WR-B-Std und WR-B-Lat  * Angabe, welche Felder in der [Gesamtstartliste](interfaces/turnierprogramme/startliste_wettbewerbsart.html) einer Wettbewerbsart NULL sind  * [Ergebnisupload](interfaces/turnierprogramme/ergebnis.html) und [digitale WR-Zettel](interfaces/turnierprogramme/wrzettel_digi.html): Vorgabe zur Verfahrensweise, wenn Tänze in einer Runde nicht getanzt wurden  * [Digitaler WR-Zettel](interfaces/turnierprogramme/wrzettel_digi.html): Datentyp für Einzelkreuz ist gemischt (Float für Wertung oder „L“ für Lift); Vorgabe zur Verfahrensweise, wenn die Wertungsdaten nicht vollständig digital vorliegen; Feldname für Unterschrift ergänzt  * [Skatingtabelle](interfaces/turnierprogramme/ergebnis.html): Klarstellung zur Übermittlung, falls das Skatingsystem nicht angewandt wurde
 * neu: [WR-Zettel PDF](interfaces/turnierprogramme/wrzettel_pdf.html) und [WR-Zettel digital](interfaces/turnierprogramme/wrzettel_digi.html)
 
 **29.04.2015**
