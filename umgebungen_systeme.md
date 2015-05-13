@@ -8,15 +8,13 @@ Die Basis-URL wird der in den Schnittstellen dokumentierten URL vorangstellt, al
 
 	https://ev.tanzsport-portal.de/api/v1/…
 
-Testzugänge für Entwickler werden nur für das Q2-System zur Verfügung gestellt. Benutzerkonten und Tokens können bei [Hendrik Heneke](mailto:heneke@tanzsport.de) beantragt werden.
+Testzugänge für Entwickler werden nur für das Q1-System zur Verfügung gestellt. Benutzerkonten und Tokens können bei [Hendrik Heneke](mailto:heneke@tanzsport.de) beantragt werden.
 
-**Hinweis: Die Systeme sind noch nicht aktiv!**
-
-## Q2-System ##
+## Q1-System ##
 
 ### Basis-URL ###
 
-	http://ev-q2.tanzsport-portal.de/
+	http://ev-q1.tanzsport-portal.de/
 	
 ## Produktivsystem ##
 
