@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ausgefallenes Turnier
-tagline: v1.6.1
+tagline: v1.6.2
 
 ---
 {% include JB/setup %}
@@ -26,6 +26,8 @@ tagline: v1.6.1
 	"vorkommnisse": "Bitte Text eingeben"
 }</code></pre>
 
+### Rückgabe ###
+Response-Objekt und HTTP-Ergebnis-Code
 
 * * *
 
