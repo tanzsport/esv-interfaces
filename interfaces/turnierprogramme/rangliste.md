@@ -23,7 +23,7 @@ tagline: v1.6.1
 ### Rückgabe ###
 
 * Array aller angeforderten Ranglisten
-  * RL-ID [id]  * Stand (Datum der letzten Änderung) [id]  * Array Starter [starter]:	* Starter-ID [id]	* Rang [rang]	  * Rangliste [rl]	  * Platzierung der vorhergehenden DM [dm]	* Array über alle Personen: (nicht bei Gruppen/Formationen, bei Paaren: Herr-ID, Dame-ID,…) [personen] 	  * Personen-ID [id]	  * Titel [titel]	  * Vorname [vorname]	  * Nachname [nachname]	* Club [club]	  * ID [id]	  * Name [name]	  * LTV [ltv]	    * ID [id]	    * Name [name]	* RL-Punkte [punkte]	* Anz. teilgenommene Turniere in der Saison (evtl. verwendbar für die DM-Warnung in Std/Lat) [anzahlTurniere]
+  * RL-ID [id]  * Stand (Datum der letzten Änderung) [stand]  * Array Starter [starter]:	* Starter-ID [id]	* Rang [rang]	  * Rangliste [rl]	  * Platzierung der vorhergehenden DM [dm]	* Array über alle Personen: (nicht bei Gruppen/Formationen, bei Paaren: Herr-ID, Dame-ID,…) [personen] 	  * Personen-ID [id]	  * Titel [titel]	  * Vorname [vorname]	  * Nachname [nachname]	* Club [club]	  * ID [id]	  * Name [name]	  * LTV [ltv]	    * ID [id]	    * Name [name]	* RL-Punkte [punkte]	* Anz. teilgenommene Turniere in der Saison (evtl. verwendbar für die DM-Warnung in Std/Lat) [anzahlTurniere]
 #### Beispiel ####
 
 <pre class="line-numbers"><code class="language-javascript">[
