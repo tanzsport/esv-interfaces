@@ -7,6 +7,13 @@ tagline: Dokumentation
 
 # Aktualisierungen #
 
+**19.05.2015**
+
+* Aktualisierung auf Version 1.6.2 inkl. [Dokumenten](dokumente.html)
+  * [WR-Zettel PDF](interfaces/turnierprogramme/wrzettel_pdf.html): Details ergänzt
+  * [Gesamtstartliste](interfaces/turnierprogramme/startliste_wettbewerbsart.html): globales Feld [nachmeldungen] und Feld [startmeldungen] je Starter sind leere Arrays
+  * API-Responses bei schreibenden Zugriffen ergänzt
+
 **07.05.2015**
 
 * Aktualisierung auf Version 1.6.1 inkl. [Dokumenten](dokumente.html)
