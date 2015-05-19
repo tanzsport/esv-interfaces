@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Startliste (Wettbewerbsart)
-tagline: v1.6.1
+tagline: v1.6.2
 
 ---
 {% include JB/setup %}
@@ -17,7 +17,7 @@ tagline: v1.6.1
 * **wettbewerbsart**: Wettbewerbsart
 
 ### Rückgabe ###
-Wie [Startliste für Veranstaltung](startliste_veranstaltung.html). Die Felder [titel], [vorname], [nachname], [geschlecht] sind NULL, das Feld [startmeldungen] ist ein leeres Array. Die globalen Felder [status] und [nachmeldungen] sind NULL.
+Wie [Startliste für Veranstaltung](startliste_veranstaltung.html). Die Felder [titel], [vorname], [nachname], [geschlecht] sind NULL, das Feld [startmeldungen] ist ein leeres Array. Die globalen Felder [status] und [nachmeldungen] sind NULL bzw. leer.
 
 [Komplett-Beispiel](../../examples/startliste_wettbewerbsart.json)
 
