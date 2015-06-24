@@ -294,6 +294,8 @@ Bei Startern eines anderen Staates, die keine Paar-ID bzw. Partner/in-ID haben, 
                         4,
                         3,
                         2,
+                        5,
+                        5,
                         5
                     ],
                     [
@@ -302,7 +304,8 @@ Bei Startern eines anderen Staates, die keine Paar-ID bzw. Partner/in-ID haben, 
                         4,
                         4,
                         3,
-                        4
+                        4,
+                        9
                     ],
                     [
                         4,
@@ -310,9 +313,9 @@ Bei Startern eines anderen Staates, die keine Paar-ID bzw. Partner/in-ID haben, 
                         4,
                         3,
                         3,
-                        4
-                    ],
-                    13
+                        4,
+                       13
+                    ]
                 ]
             ]
         },
