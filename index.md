@@ -7,6 +7,10 @@ tagline: Dokumentation
 
 # Aktualisierungen #
 
+**01.04.2016**
+
+* Korrektur [Schlüsselverzeichnis](schluesselverzeichnis.html): Rising Stars Schlüssel ist RS, nicht RSRLT
+
 **19.05.2015**
 
 * Aktualisierung auf Version 1.6.2 inkl. [Dokumenten](dokumente.html)
