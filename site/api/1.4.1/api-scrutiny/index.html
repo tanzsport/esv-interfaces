@@ -1,0 +1,2293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Schnittstellen Turnierprogramme :: Tanzsport Deutschland · ESV</title>
+    <link rel="canonical" href="http://localhost:8080/api/2.0.0-wip/api-scrutiny/index.html">
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="http://localhost:8080">Tanzsport Deutschland · ESV</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="api" data-version="1.4.1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="index.html">API</a></h3>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="index.html">Turnierprogramme</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="#_änderungshistorie">Einleitung</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="#_schnittstellen">Schnittstellen</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="#_schlüsselverzeichnis">Schlüsselverzeichnis</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../api-external/index.html">Externe Systeme</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../api-external/index.html#_meldesysteme">Meldesysteme</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../api-external/index.html#_vereinswebseiten">Vereinswebseiten</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../api-dtv/index.html">DTV</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../api-dtv/index.html#_dtv_webseite">Webseite</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../api-dtv/index.html#_tanzspiegel">Tanzspiegel</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">API</span>
+    <span class="version">1.4.1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <span class="title">API</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../2.0.0-wip/api-scrutiny/index.html">2.0.0-wip</a>
+        </li>
+        <li class="version">
+          <a href="../../1.6.2/api-scrutiny/index.html">1.6.2</a>
+        </li>
+        <li class="version">
+          <a href="../../1.6.1/api-scrutiny/index.html">1.6.1</a>
+        </li>
+        <li class="version">
+          <a href="../../1.6.0/api-scrutiny/index.html">1.6.0</a>
+        </li>
+        <li class="version">
+          <a href="../../1.5.0/api-scrutiny/index.html">1.5.0</a>
+        </li>
+        <li class="version is-current">
+          <a href="index.html">1.4.1</a>
+        </li>
+        <li class="version">
+          <a href="../../1.4/api-scrutiny/index.html">1.4</a>
+        </li>
+        <li class="version">
+          <a href="../../1.3/api-scrutiny/index.html">1.3</a>
+        </li>
+        <li class="version">
+          <a href="../../1.2/api-scrutiny/index.html">1.2</a>
+        </li>
+        <li class="version">
+          <a href="../../1.1/api-scrutiny/index.html">1.1</a>
+        </li>
+        <li class="version">
+          <a href="../../1.0/api-scrutiny/index.html">1.0</a>
+        </li>
+        <li class="version">
+          <a href="../../0.7/api/index.html">0.7</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">Dokumentation</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../ROOT/index.html">master</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../../ROOT/index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">API</a></li>
+    <li><a href="index.html">Turnierprogramme</a></li>
+  </ul>
+</nav>
+<div class="page-versions">
+  <button class="version-menu-toggle" title="Show other versions of page">1.4.1</button>
+  <div class="version-menu">
+    <a class="version" href="../../2.0.0-wip/api-scrutiny/index.html">2.0.0-wip</a>
+    <a class="version" href="../../1.6.2/api-scrutiny/index.html">1.6.2</a>
+    <a class="version" href="../../1.6.1/api-scrutiny/index.html">1.6.1</a>
+    <a class="version" href="../../1.6.0/api-scrutiny/index.html">1.6.0</a>
+    <a class="version" href="../../1.5.0/api-scrutiny/index.html">1.5.0</a>
+    <a class="version is-current" href="index.html">1.4.1</a>
+    <a class="version" href="../../1.4/api-scrutiny/index.html">1.4</a>
+    <a class="version" href="../../1.3/api-scrutiny/index.html">1.3</a>
+    <a class="version" href="../../1.2/api-scrutiny/index.html">1.2</a>
+    <a class="version" href="../../1.1/api-scrutiny/index.html">1.1</a>
+    <a class="version" href="../../1.0/api-scrutiny/index.html">1.0</a>
+    <a class="version is-missing" href="../../0.7/api/index.html">0.7</a>
+  </div>
+</div>
+</div>
+  <div class="content">
+<article class="doc">
+<h1 class="page">Schnittstellen Turnierprogramme</h1>
+<div class="sect1">
+<h2 id="_änderungshistorie"><a class="anchor" href="#_änderungshistorie"></a>Änderungshistorie</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>9.12.2014 / Version 1.0</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Turnierprogramme/Startlisten: Flag für Verwarnung Schrittbegrenzung
+ist eine Eigenschaft der Turnierart; in Startbuchdaten je Turnierart
+verschoben und mit Laufzettel-Flag in einem Objekt zusammengefasst</p>
+</li>
+<li>
+<p>Startlisten: Nationalität bei einzelner Person hinzugefügt</p>
+</li>
+<li>
+<p>Startlisten: Nachmeldung-Erlaubt-Flag hinzugefügt</p>
+</li>
+<li>
+<p>Ergebnisupload: Ergänzung für Digitale Wertungsdaten und Hinweise zu
+Upload Zwischenergebnisse</p>
+</li>
+<li>
+<p>Interface für PDF-WR-Zettel-Upload</p>
+</li>
+<li>
+<p>Flag im Veranstaltungsdatensatz für „Trotz kombiniertes Turnier nur
+Gesamtplätze hochladen“</p>
+</li>
+<li>
+<p>Dokumente gesplittet und Interfacereihenfolge überarbeitet</p>
+</li>
+<li>
+<p>Anmerkungen zum Datenmodell erweitert</p>
+</li>
+<li>
+<p>Veranstaltungsdaten: Veranstalter und Ausrichter der
+Veranstaltungsebene hinzugefügt, Bemerkungstextfelder auf
+Veranstaltungs- und Turnierebene hinzugefügt, Rückgabe der Liste bei
+Verbandsanfragen: alle Turniere im Kalender, Wertungsrichter und
+Funktionäre auf beiden Ebenen hinzugefügt</p>
+</li>
+<li>
+<p>Funktionärsdaten: WDSF-MIN und alte Lizenznummer hinzugefügt</p>
+</li>
+<li>
+<p>Ergebnis-Interface überarbeitet (Wertungstyp rundenweise hinzugefügt.
+Wertungen, Wertungstabellen und Digitale Wertungen überarbeitet)</p>
+</li>
+<li>
+<p>Digitale Wertungsrichterzettel JSON überarbeitet und Felder aus dem
+eigentlichen Ergebnisdatensatz rausgenommen. Ist getrennt zu übertragen</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>21.01.2015 / Version 1.1</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Ergebnisupload überarbeitet</p>
+</li>
+<li>
+<p>Starterdownload überarbeitet</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>28.01.2015 / Version 1.2</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Ergebnisupload, Punkt Startbuch&#8594;Ziel-Startklasse überarbeitet</p>
+</li>
+<li>
+<p>Prüfsummenmechanismus ergänzt</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>06.02.2015 / Version 1.3</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Veranstaltungsdownload: Flag entfernt</p>
+</li>
+<li>
+<p>Startlistendownload: Startbuchdaten sind ein Array über alle
+betroffenen Turnierarten</p>
+</li>
+<li>
+<p>Startlistendownload: Startsperre-Flag eingefügt</p>
+</li>
+<li>
+<p>Ranglistendownload um ein Feld erweitert</p>
+</li>
+<li>
+<p>Ergebnisupload: Platz-Felder erweitert</p>
+</li>
+<li>
+<p>Abkürzungen hinten angefügt</p>
+</li>
+<li>
+<p>Fehlercodes vergeben</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>13.02.2015 / Version 1.4</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Alle GET/POST-Aufrufe auf vereinbarten Modus reduziert</p>
+</li>
+<li>
+<p>Einzelstarteraufruf erweitert</p>
+</li>
+<li>
+<p>Ergebnisupload um Clubdaten bereinigt</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>03.03.2015 / Version 1.4.1</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Feldnamen JSON ergänzt (keine inhaltlichen Änderungen)</p>
+</li>
+<li>
+<p>Abkürzungen für Tänze (gem. TSO) und Wettbewerbsarten korrigiert</p>
+</li>
+<li>
+<p>Schnittstelle Aufstiegstabelle ergänzt (fehlte in dieser Version des
+Dokumentes)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_anmerkungen_zum_datenmodell"><a class="anchor" href="#_anmerkungen_zum_datenmodell"></a>Anmerkungen zum Datenmodell</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Veranstalter und Veranstalter-ID<br>
+ist i.d.R. ein Verein, es kann aber auch ein LTV sein oder auch der
+DTV. Es kann auch eine Veranstaltergemeinschaft sein (z.B. eine Gruppe
+von Vereinen), für die im Datenmodell in einer geeigneten Entität ein
+Eintrag vorhanden sein muss<br>
+Jede Veranstaltung ist eindeutig einem Veranstalter zugeordnet.</p>
+</li>
+<li>
+<p>Ausrichter und Ausrichter-ID<br>
+ist der Verein oder der Verband (LTV bzw. DTV), der das Turnier
+durchführt.<br>
+Jedes Turnier ist eindeutig einem Ausrichter zugeordnet.</p>
+</li>
+<li>
+<p>Veranstaltung<br>
+sind alle Turniere, die ein Veranstalter für ein (auch verlängertes)
+Wochenende angemeldet hat. Beispiele: GOC, Blaues Band der Spree, Hessen
+tanzt, danceComp, Tanzen im Dreiländereck (Aachen). Es ist nötig
+Veranstaltungen als eigenständige Entität mit eigener ID zu erstellen.</p>
+</li>
+<li>
+<p>Starter-ID (übergreifend über alle Tänzer der tänzerischen
+Einheit/Paar/Gruppe etc.)<br>
+wird innerhalb der ESV-Datenbank für die Verbindung mehrerer Tänzer zu
+einem Starter vergeben. Im Live-Modus kann mit der Starter-ID der
+Aufstiegsdaten-Status eines einzelnen Starters abgefragt werden, was
+aber nur dann möglich sein soll, wenn der Starter für mindestens eines
+der Turniere der Veranstaltung in der Startliste erscheint und damit die
+Starter-ID dem Turnierprogramm bekannt ist.</p>
+</li>
+<li>
+<p>Akademische Titel<br>
+In der bisherigen DTV-Datenbank ist kein Feld für den Titel „Dr.“
+vorhanden. Ein Titel wird bisher in das Feld des Vornamens eingetragen
+(z.B. „Thomas Dr.“). In der ESV-Datenbank sollte ein separates Feld
+dafür vorgesehen werden. Über die Stammdatenerfassung der Personen kann
+jeder Beteiligte selbst entscheiden, ob er den Titel im Sportbetrieb
+führen will.</p>
+</li>
+<li>
+<p>User<br>
+Über den User ist im ESV-System geregelt, welche Veranstaltungen er
+überhaupt lesen und schreiben darf (z.B. Verein, LTV, etc.)</p>
+</li>
+<li>
+<p>Kennschlüssel<br>
+Jedes zertifizierte Turnierprogramm/jede externe Software soll einen
+eindeutigen Kennschlüssel erhalten, woraus ersichtlich ist, dass es sich
+um eine bestimmte zertifizierte/zugelassene Software handelt. Für jede
+Einzelschnittstelle muss hinterlegt werden, ob mit dem jeweiligen
+Schlüssel lesend, schreibend oder gar nicht auf die jeweils angefragte
+Schnittstelle zugegriffen werden kann.</p>
+</li>
+<li>
+<p>Optionale Datenfelder<br>
+Diese Felder sind grundsätzlich immer im Datensatz vorhanden, ggf.
+werden sie mit NULL gefüllt.</p>
+</li>
+<li>
+<p>Staaten<br>
+in 3-Buchstaben-Olympiccode, bei den Staaten ohne solchen: ISO-3-code</p>
+</li>
+<li>
+<p>User und Passwort<br>
+Als User und Passwort werden die Vereinsportal-Zugangsdaten verwendet</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_anmerkungen_zum_ablauf"><a class="anchor" href="#_anmerkungen_zum_ablauf"></a>Anmerkungen zum Ablauf</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Lesen der Startlisten<br>
+Das Turnierprogramm wird zuerst die Liste der Veranstaltungsdaten (des
+Users) lesen. In einem zweiten Schritt wird es dann die Informationen zu
+den einzelnen Veranstaltungen lesen und in einem dritten Schritt die
+Startlisten der einzelnen Veranstaltungen mit den einzelnen Turnieren.
+Sobald eine Veranstaltung in der Liste der Veranstaltungen vorliegt,
+können die Veranstaltungsdaten und die Startlisten beliebig oft gelesen
+werden.<br>
+Wird ein Turnierprogramm im Live-Modus betrieben, können die Daten der
+Einzelstarter ebenfalls beliebig oft abgefragt werden.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_anmerkungen_zur_kodierung"><a class="anchor" href="#_anmerkungen_zur_kodierung"></a>Anmerkungen zur Kodierung</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Alle Datensätze werden als JSON-Konstrukt übertragen (Feldnamen in
+eckigen Klammern)</p>
+</li>
+<li>
+<p>Die JSON-Kodierung erfolgt streng nach Vorgaben aus RFC 4627</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Strings können alle Unicode-Zeichen enthalten</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Anführungszeichen, Backslash und Steuerzeichen (U+0000 bis U+001F)
+müssen escaped werden</p>
+</li>
+<li>
+<p>Die Unicode-Zeichen von U+0000 bis U+FFFF (Basic Multilingual Plane,
+BMP) können, müssen jedoch nicht als 6 Zeichen lange hexadezimale
+Unicode-Sequenz dargestellt werden (z.B. \u00fc). Alternativ Zeichen
+direkt in UTF-8.</p>
+</li>
+<li>
+<p>Die Unicode-Zeichen außerhalb des BMP werden als surrogate pair
+dargestellt.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Alle JSON-Schnittstellen sollen transparente HTTP-Komprimierung
+unterstützten (gzip, deflate via Accept-Encoding und Content-Encoding)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ergebniscodes"><a class="anchor" href="#_ergebniscodes"></a>Ergebniscodes</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>200 OK</p>
+</li>
+<li>
+<p>403 Login inkorrekt</p>
+</li>
+<li>
+<p>400 Datenkonstrukt ungültig (Bad request)</p>
+</li>
+<li>
+<p>404 Ressource existiert nicht (Ergebnis, Funktionär, Starter etc.)</p>
+</li>
+<li>
+<p>601 Token abgelehnt</p>
+</li>
+<li>
+<p>602 Veranstaltung bereits hochgeladen und Datensatz geschlossen</p>
+</li>
+<li>
+<p>603 Ergebnisupload nach Frist, Turnier wird der nächsten Woche
+zugerechnet</p>
+</li>
+<li>
+<p>604 Ergebnisdatensatz unvollständig (Fehlerdetails im response body)</p>
+</li>
+<li>
+<p>605 Starter nicht startberechtigt in angefragter Turnierart</p>
+</li>
+<li>
+<p>606 Datenempfang unvollständig</p>
+</li>
+<li>
+<p>610 Zugriff zur Sandbox abgelehnt, Turnier-ID des Arbeitssystems
+verwendet</p>
+</li>
+<li>
+<p>Ergebniscodes für Meldeeingänge (z.B. OK, nicht erlaubt, abgelehnt da
+Doppelmeldung…)</p>
+</li>
+<li>
+<p>Ergebniscodes für Meldebestätigungen (noch offen, bestätigt,
+abgelehnt)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_schnittstellen"><a class="anchor" href="#_schnittstellen"></a>Schnittstellen</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_veranstaltungsdaten_lesend"><a class="anchor" href="#_veranstaltungsdaten_lesend"></a>Veranstaltungsdaten (lesend)</h3>
+<div class="paragraph">
+<p>Dieses Interface ist vorrangig für Turnierprogramme gedacht. Das
+Rückgabeformat „Veranstaltung“ könnte aber auch für den
+Tanzsport.de-Turnierkalender Verwendung finden. Deshalb werden mehr
+Werte zurückgegeben als für die Turnierprogramme benötigt.</p>
+</div>
+<div class="sect3">
+<h4 id="_aufruf_liste"><a class="anchor" href="#_aufruf_liste"></a>Aufruf Liste</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /api/v1/veranstaltungen HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rückgabe_liste"><a class="anchor" href="#_rückgabe_liste"></a>Rückgabe Liste</h4>
+<div class="paragraph">
+<p>Jede Veranstaltung eine Zeile, alle Veranstaltungen in den folgenden 2 Monaten bei Vereinsanfrage/alle bei Landesanfrage, zu denen der User Berechtigung hat</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Veranstaltungs-ID [id]</p>
+</li>
+<li>
+<p>Datum Von [datumVon]</p>
+</li>
+<li>
+<p>Datum Bis [datumBis]</p>
+</li>
+<li>
+<p>Ort [ort]</p>
+</li>
+<li>
+<p>Titel (optional) [titel]</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_aufruf_veranstaltung"><a class="anchor" href="#_aufruf_veranstaltung"></a>Aufruf Veranstaltung</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>URL-Parameter: Veranstaltungs-ID</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /api/v1/turniere/{veranstaltungsId} HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rückgabe_veranstaltung"><a class="anchor" href="#_rückgabe_veranstaltung"></a>Rückgabe Veranstaltung</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Veranstaltung</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Veranstaltungs-ID [id]</p>
+</li>
+<li>
+<p>Datum Von [datumVon]</p>
+</li>
+<li>
+<p>Datum Bis [datumBis]</p>
+</li>
+<li>
+<p>Turnierstätte [turnierstaette]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Name [name]</p>
+</li>
+<li>
+<p>Anschrift (Straße + Nr) [anschrift]</p>
+</li>
+<li>
+<p>PLZ [plz]</p>
+</li>
+<li>
+<p>Ort [ort]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Veranstalter [veranstalter]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+<li>
+<p>LTV (optional) [ltv]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Ausrichter [ausrichter]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+<li>
+<p>LTV (optional) [ltv]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Kontakt Telefon [kontaktTelefon]</p>
+</li>
+<li>
+<p>Kontakt E-Mail [kontaktEmail]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Titel (optional) [titel]</p>
+</li>
+<li>
+<p>Bemerkungen (Freitext, optional) [bemerkungen]</p>
+</li>
+<li>
+<p>Array Wertungsrichter (optional) [wertungsrichter]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Inhalte wie bei Einzelaufruf Funktionäre (siehe unten)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Array Funktionäre (TL, BS, CHM, optional) [funktionaere]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Inhalte wie bei Einzelaufruf Funktionäre (siehe unten)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Array Flächen [flaechen]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Flächen-Bezeichnung (eindeutig innerh. der Veranstaltung) [id]</p>
+</li>
+<li>
+<p>Typ (Text: z.B. Parkett, Kunststoff, Stein) [typ]</p>
+</li>
+<li>
+<p>Länge (in Metern; Kommawert z.B. 10,5; Länge ≥ Breite) [laenge]</p>
+</li>
+<li>
+<p>Breite (in Metern; Kommawert) [breite]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Array Turniere [turniere]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Turnier-ID [id]</p>
+</li>
+<li>
+<p>Datum Von [datumVon]</p>
+</li>
+<li>
+<p>Datum Bis [datumBis]</p>
+</li>
+<li>
+<p>Startzeit Plan (Zeit, die im Tanzspiegel veröffentlicht wurde)</p>
+</li>
+<li>
+<p>Startzeit Plan Korrigiert (kann, sofern vom Ausrichter verändert auch
+im Terminkalender als veränderte Startzeit kenntlich dargestellt werden)</p>
+</li>
+<li>
+<p>Titel (optional) [titel]</p>
+</li>
+<li>
+<p>Veranstalter [veranstalter]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+<li>
+<p>LTV (optional) [ltv]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Ausrichter [ausrichter]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+<li>
+<p>LTV (optional) [ltv]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Flächen-ID [flaechenID]</p>
+</li>
+<li>
+<p>Wettbewerbsart (z.B. Einzel, Formation, Solo, Duo,…) [wettbewerbsart]</p>
+</li>
+<li>
+<p>Turnierform [turnierform]</p>
+</li>
+<li>
+<p>Startgruppe [startgruppe]</p>
+</li>
+<li>
+<p>Startklasse oder Startliga [startklasseLiga]</p>
+</li>
+<li>
+<p>Turnierart [turnierart]</p>
+</li>
+<li>
+<p>Zulassung (grenzt die zugelassenen Paare ein, z.B. DTV oder auf einen
+oder mehrere LTV;) [zulassung]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array; mögliche Werte: WDSF, EU, DTV + LTVs</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Wanderpokal: true/false [wanderpokal]</p>
+</li>
+<li>
+<p>Turnierrang (numerisch) [turnierrang]</p>
+</li>
+<li>
+<p>Flag Aufstiegsturnier (Vergabe von Aufstiegspunkten und
+–platzierungen ja/nein) [aufstiegsturnier]</p>
+</li>
+<li>
+<p>Ranglisten-ID (optional, bei Ranglistenturnieren und ggf. bei DM)</p>
+</li>
+<li>
+<p>WDSF-Turnier-ID (optional) [wdsfTurnierId]</p>
+</li>
+<li>
+<p>Startgebühr in EUR (optional, Zahlwert oder Freitext) [startgebuehr]</p>
+</li>
+<li>
+<p>Bemerkungen (Freitext optional) [bemerkungen]</p>
+</li>
+<li>
+<p>Array Wertungsrichter (optional) [wertungsrichter]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Personen-ID</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Turnierleiter Personen-ID (optional) [turnierleiter]</p>
+</li>
+<li>
+<p>Beisitzer Personen-ID (optional) [beisitzer]</p>
+</li>
+<li>
+<p>Chairman Personen-ID (optional) [chairman]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_startlisten_lesend"><a class="anchor" href="#_startlisten_lesend"></a>Startlisten (lesend)</h3>
+<div class="sect3">
+<h4 id="_aufruf_veranstaltung_2"><a class="anchor" href="#_aufruf_veranstaltung_2"></a>Aufruf Veranstaltung</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>URL-Parameter: Veranstaltungs-ID (ggf. optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Wettbewerbsart (wenn keine Veranstaltungs-ID angegeben
+wurde)</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /api/v1/startliste/veranstaltung/{veranstaltungsId} HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /api/v1/startliste/wettbewerbsart/{wettbewerbsart} HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_abruf_der_gesamt_starterliste"><a class="anchor" href="#_abruf_der_gesamt_starterliste"></a>Abruf der Gesamt-Starterliste</h4>
+<div class="paragraph">
+<p>Wird keine Veranstaltungs-ID angegeben, muss die Wettbewerbsart
+angegeben werden, damit die Gesamt-Starterliste für die jeweilige
+Wettbewerbsart für die Offline-Verwendung heruntergeladen werden kann.
+Die Gesamt-Startliste einer Wettbewerbsart enthält aus
+Datenschutzgründen keine Namen der Personen (Feldwerte NULL).</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rückgabewerte_veranstaltung"><a class="anchor" href="#_rückgabewerte_veranstaltung"></a>Rückgabewerte Veranstaltung</h4>
+<div class="paragraph">
+<p><strong>Global</strong>:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Gültigkeits-Flag für Meldestand (0 = Turniermeldungen noch nicht
+gestartet, 1 = Meldestand noch nicht final, 2 = Meldestand final)</p>
+</li>
+<li>
+<p>Nachmeldungen möglich-Flag [nachmeldungen]</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Erläuterung:<br>
+Turnierprogramme können die Startdaten ab dem Start der Turniermeldungen
+herunterladen (z.Z. der 21. des Vorvormonats). Der finale Meldestand
+inkl. der aktuellen Aufstiegsdaten kann frühestens am Tag vor dem
+Turnier geladen werden – er wird in diesem Flag als solcher
+gekennzeichnet.</p>
+</div>
+<div class="paragraph">
+<p><strong>Starterweise [starter]</strong>:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Starter-ID (übergreifende ID für tänzerische Einheit) [id]</p>
+</li>
+<li>
+<p>Team (optional, nur bei Formations-, Small-Group- und
+Mannschaftswettbewerben) [team]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Team-Name (sofern vorhanden, z.B. bei Gruppen+Formationen) [name]</p>
+</li>
+<li>
+<p>Team-Kapitän (sofern vorhanden, z.B. bei Gruppen+Formationen)</p>
+</li>
+<li>
+<p>Team-Trainer (sofern vorhanden, z.B. bei Gruppen+Formationen)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Personen (Array, enthält bei Teamwettbewerben alle Tänzer inkl.
+Ersatztänzer) [personen]:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Personen-ID (DTV-Nummer) [id]</p>
+</li>
+<li>
+<p>Titel (nur bei Einzelaufruf Veranstaltung, sonst NULL) [titel]</p>
+</li>
+<li>
+<p>Vorname (nur bei Einzelaufruf Veranstaltung, sonst NULL) [vorname]</p>
+</li>
+<li>
+<p>Nachname (nur bei Einzelaufruf Veranstaltung, sonst NULL) [nachname]</p>
+</li>
+<li>
+<p>Geschlecht (nur bei Einzelaufruf Veranstaltung, sonst NULL)</p>
+</li>
+<li>
+<p>WDSF-MIN (optional, sofern vorhanden) [wdsfMin]</p>
+</li>
+<li>
+<p>Nationalität (3-Buchst.-Code) [nationalitaet]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Club (bei deutschen Paaren Pflicht, sonst optional) [club]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Club-ID [id]</p>
+</li>
+<li>
+<p>Club-Name [name]</p>
+</li>
+<li>
+<p>LTV (bei deutschen Paaren Pflicht, sonst optional) [ltv]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>LTV-ID [id]</p>
+</li>
+<li>
+<p>LTV-Name [name]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Staat (Staat, für den der Starter an den Start geht) [staat]</p>
+</li>
+<li>
+<p>Meldungen (Array, nicht vorhanden bei Aufruf der Gesamt-Starterliste
+für eine Wettbewerbsart) [meldungen]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Turnier-ID (nur die IDs der Turniere der aufgerufenen Veranstaltung)</p>
+</li>
+<li>
+<p>Flag Meldung (Meldung = true, Abmeldung = false) [meldung]</p>
+</li>
+<li>
+<p>Datum der Meldebestätigung (durch Verein) [bestaetigt]</p>
+</li>
+<li>
+<p>Startnummer (optional – wird erst später für Ligaturniere relevant
+sein wie JMD und Formation) [startNr]</p>
+</li>
+<li>
+<p>Flag Startsperre (true/false) [startsperre]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Array Startbuch turnierartweise (optional, nur Einzelwettbewerbe
+St/Lat und JMD, nur Turnierarten für die ein elektronisches Startbuch
+vorliegt, in der Übergangszeit ggf. komplett leer) [startbuch]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Turnierart [turnierart]</p>
+</li>
+<li>
+<p>Startgruppe [startgruppe]</p>
+</li>
+<li>
+<p>Ist-Startliga (optional, nur Formationswettbewerbe St/Lat und JMD)</p>
+</li>
+<li>
+<p>Ist-Startklasse (z.B. BSW, D, C,B,A,S,PD) (optional, nur bei
+Einzelwettbewerben St/Lat und JMD) [startklasse]</p>
+</li>
+<li>
+<p>Ziel-Startklasse (C,B,…, NULL für BSW/S/PD/ausländische-Paare/alle
+Doppelstartpaare, die nicht weiter aufsteigen können, d.h. „kein
+Aufstieg möglich bei diesem Turnier für dieses Paar“; optional, nur bei
+Einzelwettbewerben St/Lat, ggf. später Einzelwettbewerbe JMD)</p>
+</li>
+<li>
+<p>Punkte (optional, nur bei Einzelwettbewerben St/Lat, ggf. später
+Einzelwettbewerbe JMD) [punkte]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Ist [ist]</p>
+</li>
+<li>
+<p>Ziel [ziel]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Platzierungen (optional, nur bei Einzelwettbewerben St/Lat, ggf.
+später Einzelwettbewerbe JMD) [platzierungen]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Ist [ist]</p>
+</li>
+<li>
+<p>Ziel [ziel]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Regeln (optional, nur bei Einzelwettbewerben St/Lat, ggf. später
+Einzelwettbewerbe JMD) [regeln]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Mindestpunkte [minPunkte]</p>
+</li>
+<li>
+<p>Platzierung bis Platz (einschließlich) [platzierungBis]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Flags [flags]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Laufzetteldruck da Aufstiegschance am Wochenende (optional, nur bei
+Einzelwettbewerben St/Lat, ggf. später Einzelwettbewerbe JMD)</p>
+</li>
+<li>
+<p>Verwarnt wg. Figurenbegrenzung (nur Einzelwettbewerbe St/Lat)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_aufruf_einzelstarter"><a class="anchor" href="#_aufruf_einzelstarter"></a>Aufruf Einzelstarter</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>URL-Parameter: Starter-ID</p>
+</li>
+<li>
+<p>URL-Parameter: Personen-ID/WDSF-MIN, zusammen mit Wettbewerbsart</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Aufruf entweder per Starter-ID, per Personen-ID bzw. WDSF-MIN (und
+Wettbewerbsart).</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /api/v1/starter/{starterId} HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /api/v1/starter/{wettbewerbsart}/{personenId} HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rückgabewerte_einzelstarter"><a class="anchor" href="#_rückgabewerte_einzelstarter"></a>Rückgabewerte Einzelstarter</h4>
+<div class="paragraph">
+<p>wie Starter-Eintrag aus Veranstaltungsstartliste, jedoch ohne Meldungen</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ranglisten_lesend"><a class="anchor" href="#_ranglisten_lesend"></a>Ranglisten (lesend)</h3>
+<div class="sect3">
+<h4 id="_aufruf"><a class="anchor" href="#_aufruf"></a>Aufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>URL-Parameter: RL-ID (Mehrfachnennung mit versch. IDs möglich)</p>
+</li>
+<li>
+<p>URL-Parameter: Stichtag (ttmmjjjj, optional, ohne Angabe letzter
+Stand)</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /api/v1/ranglisten/{stichtag}/{ranglistenId1},{ranglistenId2},... HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rückgabe"><a class="anchor" href="#_rückgabe"></a>Rückgabe</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Global-je-RL</p>
+<div class="ulist">
+<ul>
+<li>
+<p>RL-ID [id]</p>
+</li>
+<li>
+<p>Stand (Datum der letzten Änderung) [id]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Array Starter [starter]:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Starter-ID [id]</p>
+</li>
+<li>
+<p>Rang [rang]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Rangliste [rl]</p>
+</li>
+<li>
+<p>Platzierung der vorhergehenden DM [dm]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Array über alle Personen: (nicht bei Gruppen/Formationen, bei Paaren:
+Herr-ID, Dame-ID,…) [personen]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Personen-ID [id]</p>
+</li>
+<li>
+<p>Titel [titel]</p>
+</li>
+<li>
+<p>Vorname [vorname]</p>
+</li>
+<li>
+<p>Nachname [nachname]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Club [club]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+<li>
+<p>LTV [ltv]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>RL-Punkte [punkte]</p>
+</li>
+<li>
+<p>Anz. teilgenommene Turniere in der Saison (evtl. verwendbar für die
+DM-Warnung in Std/Lat) [anzahlTurniere]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_funktionärelizenzträger_lesend_einzelaufruf"><a class="anchor" href="#_funktionärelizenzträger_lesend_einzelaufruf"></a>Funktionäre/Lizenzträger (lesend) Einzelaufruf</h3>
+<div class="sect3">
+<h4 id="_aufruf_2"><a class="anchor" href="#_aufruf_2"></a>Aufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>URL-Parameter: Personen-ID</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /api/v1/funktionaer/{personenId} HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rückgabe_2"><a class="anchor" href="#_rückgabe_2"></a>Rückgabe</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Personen-ID [id]</p>
+</li>
+<li>
+<p>WDSF-MIN (optional, sofern verfügbar) [wdsfMin]</p>
+</li>
+<li>
+<p>alte Lizenznummer (optional) [lizenzNr]</p>
+</li>
+<li>
+<p>Titel [titel]</p>
+</li>
+<li>
+<p>Vorname [vorname]</p>
+</li>
+<li>
+<p>Nachname [nachame]</p>
+</li>
+<li>
+<p>Club [club]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+<li>
+<p>LTV [ltv]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ID [id]</p>
+</li>
+<li>
+<p>Name [name]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Staat [staat]</p>
+</li>
+<li>
+<p>Array Lizenzen [lizenzen]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Lizenz-IDs (Auflistung aller gültigen Funktionärs-Lizenzen)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_funktionärelizenzträger_gesamtdatei_des_dtv_lesend"><a class="anchor" href="#_funktionärelizenzträger_gesamtdatei_des_dtv_lesend"></a>Funktionäre/Lizenzträger – Gesamtdatei des DTV (lesend)</h3>
+<div class="paragraph">
+<p>Intern mit Gültigkeit 7 Tage</p>
+</div>
+<div class="sect3">
+<h4 id="_aufruf_3"><a class="anchor" href="#_aufruf_3"></a>Aufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /api/v1/funktionaere HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rückgabe_3"><a class="anchor" href="#_rückgabe_3"></a>Rückgabe</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Array (Elemente wie Einzelaufruf, Namen und Titel NULL)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_aufstiegstabellen_lesend"><a class="anchor" href="#_aufstiegstabellen_lesend"></a>Aufstiegstabellen (lesend)</h3>
+<div class="paragraph">
+<p>Z.Zt. nur für Wettbewerbsart Einzel</p>
+</div>
+<div class="paragraph">
+<p>Existiert kein Eintrag in der Tabelle (Array Kriterien), ist kein
+weiterer Aufstieg möglich.<br>
+Die Tabelle enthält auch Felder für die Ist-Klasse BSW, für die
+technisch der Aufstieg ermittelt werden muss, der jedoch erst nach
+Umwandlung in ein vollwertiges Startbuch vollzogen werden kann.</p>
+</div>
+<div class="sect3">
+<h4 id="_aufruf_4"><a class="anchor" href="#_aufruf_4"></a>Aufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /api/v1/aufstiegstabelle/{wettbewerbsart}/{jahr} HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rückgabe_4"><a class="anchor" href="#_rückgabe_4"></a>Rückgabe</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Array</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Landesverbände (Array, Landesverbände, für die die Tabelle gültig
+ist, z.Zt. alle) [ltv]</p>
+</li>
+<li>
+<p>Mindest-Punkte (Mindest-Punkte, die zum Erreichen einer Platzierung
+erforderlich sind) [minPunkte]</p>
+</li>
+<li>
+<p>Tabellen (Array) [tabellen]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Startgruppen (Array) [startgruppen]</p>
+</li>
+<li>
+<p>Turnierart [turnierart]</p>
+</li>
+<li>
+<p>Kriterien (Array, aufsteigend sortiert nach Klasse) [kriterien]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Klasse (Ist-Klasse des Paares) [klasse]</p>
+</li>
+<li>
+<p>Punkte (erforderliche Punkte für Aufstieg) [punkte]</p>
+</li>
+<li>
+<p>Plätze (erforderliche Plätze für Aufstieg) [plaetze]</p>
+</li>
+<li>
+<p>Platzierung Bis Platz [bisPlatz]</p>
+</li>
+<li>
+<p>Doppelstart: true/false, kennzeichnet Aufstiege in Startklassen,
+die nur im Doppelstart genutzt werden können [doppelstart]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ergebnisse_schreibend_evtl_lesend"><a class="anchor" href="#_ergebnisse_schreibend_evtl_lesend"></a>Ergebnisse (schreibend, evtl. lesend)</h3>
+<div class="paragraph">
+<p>Absichtlicher Zeitversatz der Darstellung beim Live-Mode?</p>
+</div>
+<div class="paragraph">
+<p>Die Ergebnisse eines Turniers können mehrfach geschrieben werden, z.B.
+im Live-Modus nach jeder Runde. Dabei können sich auch die Inhalte des
+übergreifenden Berichtes verändern. Das ESV-System muss erkennen können,
+wann die Daten vollständig sind –wenn die Prüfsumme enthalten ist, sind
+die Daten komplett (Turnier beendet). Danach können die Ergebnisse noch
+weitere 4 Stunden hochgeladen werden. Nach 4 Stunden lässt das
+ESV-System ein Hochladen nicht mehr zu.</p>
+</div>
+<div class="paragraph">
+<p>Die übertragene Prüfsumme sollte im ESV-Portal mit einer nach
+Datenerhalt berechneten Prüfsumme verglichen werden und bei
+Nichtübereinstimmung den Admin alarmieren. Solche Ergebnisse sollen
+vorläufig nicht direkt dargestellt werden. Weitere Prüfwerte sind zum
+Beispiel die Endrundenplatzziffern.</p>
+</div>
+<div class="paragraph">
+<p>Das Hochladen von Zwischenergebnissen (und der reinen Startliste) soll
+möglich sein. Solange das Turnier noch läuft sind Daten wie: Endzeit,
+Ergebnis und Wertung (für noch nicht ausgeschiedene Starter) optional
+und Rundenablauf nur teilvollständig. Das Starter-Array muss trotzdem
+bei jedem Upload komplett (alle Starter inkl. abwesende) hochgeladen
+werden. Jeder Upload überschreibt immer den vorherigen komplett. Ein
+Übertrag der Daten in die Bücher erfolgt sofort (aber ohne
+Punkt+Platzierungssummen darzustellen. Es muss klar hervorgehoben
+werden, dass diese Ergebnisse vorläufiger Natur sind). Aufstiege und
+Gesamtsummen werden erst nach Ablauf des Turnierwochenendes (alle
+Uploads eingetroffen) dargestellt.</p>
+</div>
+<div class="paragraph">
+<p>Die Prüfsumme besteht aus den ersten 6 Stellen des SHA-1-Hashs des
+JSON-Datenstreams.</p>
+</div>
+<div class="sect3">
+<h4 id="_aufruf_turnier"><a class="anchor" href="#_aufruf_turnier"></a>Aufruf Turnier</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: POST</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>HTTP Header: Prüfsumme (optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Turnier-ID</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>POST /api/v1/ergebnis/{turnierId} HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz
+X-DTV-Pruefsumme: ff621b</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_inhalte"><a class="anchor" href="#_inhalte"></a>Inhalte</h4>
+<div class="paragraph">
+<p><strong>Übergreifend Bericht</strong>:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Tänze (Array, max. 10 Tänze) [taenze]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>gültige Werte: LW, TG, WW, SF, QU, SB, CC, RB, PD, JV, STD, LAT, JMD,
+DF, SA,..)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>WR (Array, WR des Turniers) [wr]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Personen-ID (für DTV-WR Pflicht, für Ersatz-WR optional, für
+Ausländer NULL) [id]</p>
+</li>
+<li>
+<p>Vorname [vorname]</p>
+</li>
+<li>
+<p>Nachname [nachname]</p>
+</li>
+<li>
+<p>Club [club]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Club-Name (optional für Ausländer) [name]</p>
+</li>
+<li>
+<p>LTV-Name (für Ausländer NULL) [ltv]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Staat [staat]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Turnierleiter (Array, min. 1 Element) [tl]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Analog WR-Einzelement (ID Pflicht, Ausnahmen auf Veranstaltungsebene
+konfiguriert)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Beisitzer (Array, min. 1 Element) [bs]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Analog WR-Einzelement (ID Pflicht, Ausnahmen auf Veranstaltungsebene
+konfiguriert)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Chairman (optional) (Array) [ch]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Analog WR-Einzelement</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Vorkommnisse (optional) [vorkommnisse]</p>
+</li>
+<li>
+<p>Beginnzeit (ISO8601) [beginn]</p>
+</li>
+<li>
+<p>Endzeit (ISO8601) [ende]</p>
+</li>
+<li>
+<p>Array Rundenablauf (NULL für Upload von nur-Startlisten) [ablauf]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Schlüsselwerte: 1,R,2,3,4,5,6,7,8,9,F<br>
+(Redance=R, bei 1.VR=1A, bei 2.VR=1B, bei Formations A-Finale=FA, bei
+B-Finale=FB) [runde]</p>
+</li>
+<li>
+<p>Wertungstyp<br>
+(Kreuze{0..1}=K, Mannschaftspunkte{1..1,5..2..2,5..3}=M,
+Finalplätze{1..x}=P, FormationswertungKreuze=FK,
+FormationswertungPlätze=FP, JMD-WertungenKreuze=JK,
+JMD-WertungenPlätze=JP, JudgingSystem2.x=JS) [typ]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>kombiniert mit Turnier-ID (optional) [kombiniertMit]</p>
+</li>
+<li>
+<p>Zuschauerzahl [zuschauer]</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>FK, FP, JK und JP Wertungen sind im normalen Ergebnisarray nur wie
+Kreuzsummen und Finalwertungen enthalten. Im Digitalen-Wertungs-Array
+sind auch die Punktewertungen als Punkte in den verschiedenen „Tänzen“
+abgelegt.</p>
+</div>
+<div class="paragraph">
+<p><strong>Zeilenweise Starter [starter]</strong>:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Starter-ID (Pflicht bei DTV- und Grenzverkehrs-Paaren, bei WDSF-Paaren
+optional) [id]</p>
+</li>
+<li>
+<p>Startnummer [startNr]</p>
+</li>
+<li>
+<p>Personen (Array, enthält bei Teamwettbewerben alle Starter, die
+tatsächlich getanzt haben)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Personen-ID (Pflicht bei DTV- und Grenzverkehrs-Paaren, bei
+WDSF-Paaren optional) [id]</p>
+</li>
+<li>
+<p>Vorname [vorname]</p>
+</li>
+<li>
+<p>Nachname [nachname]</p>
+</li>
+<li>
+<p>WDSF-MIN (optional, sofern vorliegend; bei WDSF-Paaren Pflicht) [wdsfMin]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Staat [staat]</p>
+</li>
+<li>
+<p>Status (teilgenommen = 1, fehlt entschuldigt = 2, fehlt unentschuldigt
+= 3) [status]</p>
+</li>
+<li>
+<p>Meldungstyp (regulär = 1, Nachmeldung = 2, Nachmeldung, Sieger = 3,
+Nachmeldung, Aufsteiger = 4) [meldungsTyp]</p>
+</li>
+<li>
+<p>Ergebnis (NULL bei Status 2 oder 3 oder beim Upload von
+nur-Startliste) [ergebnis]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Platz-Gesamtergebnis Von [platzGesamtVon]</p>
+</li>
+<li>
+<p>Platz-Gesamtergebnis Bis [platzGesamtBis]</p>
+</li>
+<li>
+<p>Platz-Eigenes-Turnier Von (z.B. nach Anhang 5, NULL wenn nicht
+benötigt) [platzTurnierVon]</p>
+</li>
+<li>
+<p>Platz-Eigenes-Turnier Bis (z.B. nach Anhang 5, NULL wenn nicht
+benötigt) [platzTurnierBis]</p>
+</li>
+<li>
+<p>Punkte [punkte]</p>
+</li>
+<li>
+<p>Platzierungen gesamt (zur Überprüfung in der DB, Adminalarm bei
+Abweichung) [platzierungenGesamt]</p>
+</li>
+<li>
+<p>Punkte gesamt (zur Überprüfung in der DB, Adminalarm bei Abweichung)</p>
+</li>
+<li>
+<p>Aufstieg (0 = nein, 1 = ja, 2 = ja, durch Beschluss) [aufstieg]</p>
+</li>
+<li>
+<p>Flag Laufzettel (Starter hat manuell bearbeitete Aufstiegdaten)</p>
+</li>
+<li>
+<p>Flag Verwarnung/Disqualifikation (0 = keine, 1 = Verwarnt
+Schrittbegrenzung, 2 = Disqualifiziert Schrittbegrenzung, 3 =
+gewöhnliche Disqualifikation) [vd]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Wertung (Array mit N = Anzahl Runden Elementen; nicht getanzte Runden
+werden als NULL übertragen, Runden nach Ausscheiden werden gar nicht
+übertragen) [wertung]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Vorrundenwertung (nur Kreuz+Mannschaftspunkt-Wertungen)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array WR</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array Tänze+1</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Tänze 1-x: Float für Wertung (Einzelkreuze, sonst NULL)</p>
+</li>
+<li>
+<p>Tänze+1: Float Summe<br></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Summe Wertungen über alle Tänze und alle WR</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>JudgingSystem2.x: Summe Float</p>
+</li>
+<li>
+<p>Endrundenwertung (nur Final-Platz-Wertungen, bei Mannschaft wird
+Struktur der Vorrundenwertung verwendet)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array Tänze</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array WR+2</p>
+<div class="ulist">
+<ul>
+<li>
+<p>WR1-x: Non-signed Byte für Wertung</p>
+</li>
+<li>
+<p>WR+1: Platzziffer</p>
+</li>
+<li>
+<p>WR+2: Platzziffer Summe</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Einmal</strong>:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Array Endrundentabelle (optional, nur bei Plätzewertungen P, FP, JP,
+Reihenfolge aus Rundenablauf, nur bei B/A-Finals relevant, vor
+Turnierende NULL) [endrundentabellen]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array Tänze</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array über Endrundenstarter (Zeilen im heute gedruckten Dokument)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array über Plätze (Spalten im heute gedruckten Dokument)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>„Tabellenzelle“ (solange in Ausrechnung benötigt; NULL wenn
+Ausrechnung in früherer Spalte beendet)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Anzahl [anzahl]</p>
+</li>
+<li>
+<p>Summe (optional, sonst NULL) [summe]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Array Skatingtabelle (optional bzw. nur sofern nötig, Reihenfolge aus
+Rundenablauf, nur bei B/A-Finals relevant, vor Turnierende NULL)</p>
+<div class="ulist skatingtabellen">
+<ul class="skatingtabellen">
+<li>
+<p>Skating Regel 10 [regel10]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array über Endrundenstarter</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array über Plätze</p>
+<div class="ulist">
+<ul>
+<li>
+<p>„Tabellenzelle“ (wenn in Ausrechnung benötigt, sonst NULL)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Anzahl [anzahl]</p>
+</li>
+<li>
+<p>Summe (optional, sonst NULL) [summe]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Platz (sofern in Regel 10 bestimmt, sonst NULL)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Skating Regel 11 (optional) [regel11]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array über Endrundenstarter</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Array über Plätze</p>
+<div class="ulist">
+<ul>
+<li>
+<p>„Tabellenzelle“ (wenn in Ausrechnung benötigt, sonst NULL)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Anzahl [anzahl]</p>
+</li>
+<li>
+<p>Summe (optional, sonst NULL) [summe]</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Platz (sofern in Regel 11 bestimmt, sonst NULL)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Bei Startern eines anderen Staates, die keine Paar-ID bzw. Partner/in-ID
+haben, sind nur die Namen eingetragen, evtl. der Clubname, aber auch der
+Staat.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rückgabe_5"><a class="anchor" href="#_rückgabe_5"></a>Rückgabe</h4>
+<div class="paragraph">
+<p>Daten erfolgreich angenommen, bzw. Informationen über mögliche Fehler
+(z.B. geschlossen, etc)</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_wertungsrichterzettel_pdf"><a class="anchor" href="#_wertungsrichterzettel_pdf"></a>Wertungsrichterzettel (PDF)</h3>
+<div class="sect3">
+<h4 id="_aufruf_5"><a class="anchor" href="#_aufruf_5"></a>Aufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: POST</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>URL-Parameter: Turnier-ID</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_inhalte_2"><a class="anchor" href="#_inhalte_2"></a>Inhalte</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>PDF-Files</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_wertungsrichterzettel_json"><a class="anchor" href="#_wertungsrichterzettel_json"></a>Wertungsrichterzettel (JSON)</h3>
+<div class="sect3">
+<h4 id="_aufruf_6"><a class="anchor" href="#_aufruf_6"></a>Aufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: POST</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>URL-Parameter: Turnier-ID</p>
+</li>
+<li>
+<p>URL-Parameter: Runde</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_inhalte_3"><a class="anchor" href="#_inhalte_3"></a>Inhalte</h4>
+<div class="paragraph">
+<p>Bei Formations/JMD-Wertungen läuft das Wertungsarray immer über 5/4
+virtuelle Tänze<br>
+(Tanz 1-4/3: Wertungsgebiete Punkte 0-10, Tanz 5/4: Kreuz oder Platz).</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Array über alle WR (in der Reihenfolge wie im Ergebnisupload)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Kreuzvorgabe von (bei Finale NULL) [kreuzvorgabeVon]</p>
+</li>
+<li>
+<p>Kreuzvorgabe bis (bei Finale NULL) [kreuzvorgabeBis]</p>
+</li>
+<li>
+<p>Array über Starter [starter]</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Startnummer [startNr]</p>
+</li>
+<li>
+<p>Array über Tänze (bzw. Wertungsgebiete bei Formation oder JMD)</p>
+<div class="ulist wertungen">
+<ul class="wertungen">
+<li>
+<p>Float Wertung</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Float Summe Wertung (NULL bei Platzwertung) [summe]</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Unterschrift (Base64-kodiertes PNG-Bild 1bit, max. 400*200 Pixel)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_schlüsselverzeichnis"><a class="anchor" href="#_schlüsselverzeichnis"></a>Schlüsselverzeichnis</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_ltvs"><a class="anchor" href="#_ltvs"></a>LTVs</h3>
+<div class="paragraph">
+<p>HATV, HTV, LTV Berlin, LTV Br, LTV Bremen, LTVB, LTVS, NTV, SLT, TBW,
+TMV, TNW, TRP, TSH, TTSV, LTVSA</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_wettbewerbsarten"><a class="anchor" href="#_wettbewerbsarten"></a>Wettbewerbsarten</h3>
+<div class="paragraph">
+<p>Einzel, FormationStdLat, Mannschaft, Solo, SoloMaennlich, SoloWeiblich,
+Duo, SmallGroup, FormationJMD</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_turnierformen"><a class="anchor" href="#_turnierformen"></a>Turnierformen</h3>
+<div class="paragraph">
+<p>DM (Deutsche Meisterschaft), DP (Deutschlandpokal), DC (Deutschlandcup),
+RLT (Rangliste),<br>
+RSRLT (Rising Star Rangliste), GM (Gebietsmeisterschaft), LM
+(Landesmeisterschaft), OT (Offenes Turnier), ET (Einladungsturnier), IET
+(Int. Einladungsturnier), IM (Int. Meisterschaft), IT (Int. Turnier),
+PDT (PD Trophy), LT (Ligaturnier), IMK (Int. Länderkampf Mannschaft), MK
+(Mannschaftskampf),<br>
+RM (Regionalmeisterschaft JMD)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_startgruppen"><a class="anchor" href="#_startgruppen"></a>Startgruppen</h3>
+<div class="paragraph">
+<p>Kin.I, Kin.II, Kin., Jun.I, Jun.II, Jug., Hgr., Hgr.II, Sen.I, Sen.II,
+Sen.III, Sen.IV, U21, MC.I, MC.II</p>
+</div>
+<div class="paragraph">
+<p>Ggf. Kombinationen aus diesen Abkürzungen (z.B. Jug./Hgr., Sen.I/II)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_startklassen"><a class="anchor" href="#_startklassen"></a>Startklassen</h3>
+<div class="paragraph">
+<p>BSW, D, C, B, A, S, PD, 1.BL, 2.BL, RL, OL, LL, VL</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_turnierarten"><a class="anchor" href="#_turnierarten"></a>Turnierarten</h3>
+<div class="paragraph">
+<p>Std, Lat, Kmb, JMD, SD-Std, SD-Lat</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ranglisten_ids"><a class="anchor" href="#_ranglisten_ids"></a>Ranglisten-IDs</h3>
+<div class="paragraph">
+<p>Jun.II-Std, Jun.II-Lat, Jug-Std, Jug-Lat, Hgr-Std, Hgr-Lat, Hgr-RS-Std,
+Hgr-RS-Lat, Sen.I-Std, Sen.II-Std, G55-Std, LS66-Std, Jug-SoloM-JMD,
+Jug-SoloW-JMD, Jug-Duo-JMD, Jug-SG-JMD, Hgr-SoloM-JMD, Hgr-SoloW-JMD,
+Hgr-Duo-JMD, Hgr-SG-JMD</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lizenztypen"><a class="anchor" href="#_lizenztypen"></a>Lizenztypen</h3>
+<div class="paragraph">
+<p>Mehrfachnennung im Interface sehr wahrscheinlich</p>
+</div>
+<div class="paragraph">
+<p><strong>Turnierleiter</strong>:<br>
+TL, TL-JMD</p>
+</div>
+<div class="paragraph">
+<p><strong>WR-Einzel</strong>:<br>
+WR-D (alle aktiven C-Tänzer mit WR-C), WR-C, WR-B (alle aktiven
+A-Tänzer mit WR-A), WR-A-Std, WR-A-Lat, WR-S-Std, WR-S-Lat, WR-S-RL-Std,
+WR-S-RL-Lat, WR-S-DM-Std, WR-S-DM-Lat</p>
+</div>
+<div class="paragraph">
+<p>Bemerkung: Bei Angabe von WR-D oder WR-B sollen keine höheren, weiteren
+Lizenzwerte übertragen werden.</p>
+</div>
+<div class="paragraph">
+<p><strong>WR-Formation Std/Lat:</strong><br>
+WR-F1, WR-F2, WR-F-BL, WR-F-DM,</p>
+</div>
+<div class="paragraph">
+<p><strong>WR-JMD</strong>:<br>
+WR-J1, WR-J2, WR-J1-DM, WR-J2-DM</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tänze"><a class="anchor" href="#_tänze"></a>Tänze</h3>
+<div class="paragraph">
+<p>LW, TG, WW, SF, QU, SB, CC, RB, PD, JV, STD, LAT, JMD, DF, SA (Salsa)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_runden"><a class="anchor" href="#_runden"></a>Runden</h3>
+<div class="paragraph">
+<p>1, R, 2, 3, 4, 5, 6, 7, 8, 9, F<br>
+(Redance=R, bei 1.VR=1A, bei 2.VR=1B, bei Formations A-Finale=FA, bei
+B-Finale=FB)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_wertungstyp"><a class="anchor" href="#_wertungstyp"></a>Wertungstyp</h3>
+<div class="paragraph">
+<p>K (Kreuze), M (Mannschaftspunkte{1..1,5..2..2,5..3}), P
+(Finalplätze{1..x}),<br>
+FK (FormationswertungKreuze), FP (FormationswertungPlätze), JK
+(JMD-WertungenKreuze),<br>
+JP (JMD-WertungenPlätze), JS (JudgingSystem2.x)</p>
+</div>
+</div>
+</div>
+</div>
+</article>
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>Copyright (C) 2015-2020 <a href="https://tanzsport.de">Deutscher Tanzsportverband</a>
+</footer>
+<script src="../../../_/js/site.js"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

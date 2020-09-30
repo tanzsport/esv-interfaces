@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Schnittstellen DTV-Webseite :: Tanzsport Deutschland · ESV</title>
+    <link rel="canonical" href="http://localhost:8080/api/2.0.0-wip/api-dtv/index.html">
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="http://localhost:8080">Tanzsport Deutschland · ESV</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="api" data-version="1.2">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../api-scrutiny/index.html">API</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../api-scrutiny/index.html">Turnierprogramme</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../api-scrutiny/index.html">Einleitung</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../api-scrutiny/index.html#_schnittstellen">Schnittstellen</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../api-external/index.html">Externe Systeme</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../api-external/index.html#_meldesysteme">Meldesysteme</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../api-external/index.html#_vereinswebseiten">Vereinswebseiten</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item is-current-page" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="index.html">DTV</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="#_dtv_webseite">Webseite</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="#_tanzspiegel">Tanzspiegel</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">API</span>
+    <span class="version">1.2</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <span class="title">API</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../2.0.0-wip/api-scrutiny/index.html">2.0.0-wip</a>
+        </li>
+        <li class="version">
+          <a href="../../1.6.2/api-scrutiny/index.html">1.6.2</a>
+        </li>
+        <li class="version">
+          <a href="../../1.6.1/api-scrutiny/index.html">1.6.1</a>
+        </li>
+        <li class="version">
+          <a href="../../1.6.0/api-scrutiny/index.html">1.6.0</a>
+        </li>
+        <li class="version">
+          <a href="../../1.5.0/api-scrutiny/index.html">1.5.0</a>
+        </li>
+        <li class="version">
+          <a href="../../1.4.1/api-scrutiny/index.html">1.4.1</a>
+        </li>
+        <li class="version">
+          <a href="../../1.4/api-scrutiny/index.html">1.4</a>
+        </li>
+        <li class="version">
+          <a href="../../1.3/api-scrutiny/index.html">1.3</a>
+        </li>
+        <li class="version is-current">
+          <a href="../api-scrutiny/index.html">1.2</a>
+        </li>
+        <li class="version">
+          <a href="../../1.1/api-scrutiny/index.html">1.1</a>
+        </li>
+        <li class="version">
+          <a href="../../1.0/api-scrutiny/index.html">1.0</a>
+        </li>
+        <li class="version">
+          <a href="../../0.7/api/index.html">0.7</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">Dokumentation</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../../ROOT/index.html">master</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../../ROOT/index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../api-scrutiny/index.html">API</a></li>
+    <li><a href="index.html">DTV</a></li>
+  </ul>
+</nav>
+<div class="page-versions">
+  <button class="version-menu-toggle" title="Show other versions of page">1.2</button>
+  <div class="version-menu">
+    <a class="version" href="../../2.0.0-wip/api-dtv/index.html">2.0.0-wip</a>
+    <a class="version" href="../../1.6.2/api-dtv/index.html">1.6.2</a>
+    <a class="version" href="../../1.6.1/api-dtv/index.html">1.6.1</a>
+    <a class="version" href="../../1.6.0/api-dtv/index.html">1.6.0</a>
+    <a class="version" href="../../1.5.0/api-dtv/index.html">1.5.0</a>
+    <a class="version" href="../../1.4.1/api-dtv/index.html">1.4.1</a>
+    <a class="version" href="../../1.4/api-dtv/index.html">1.4</a>
+    <a class="version" href="../../1.3/api-dtv/index.html">1.3</a>
+    <a class="version is-current" href="index.html">1.2</a>
+    <a class="version" href="../../1.1/api-dtv/index.html">1.1</a>
+    <a class="version" href="../../1.0/api-dtv/index.html">1.0</a>
+    <a class="version is-missing" href="../../0.7/api/index.html">0.7</a>
+  </div>
+</div>
+</div>
+  <div class="content">
+<article class="doc">
+<h1 class="page">Schnittstellen DTV-Webseite</h1>
+<div class="sect1">
+<h2 id="_änderungshistorie"><a class="anchor" href="#_änderungshistorie"></a>Änderungshistorie</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>6.12.2014 / Version 1.0</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Dokumente gesplittet und Interfacereihenfolge überarbeitet</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dtv_webseite"><a class="anchor" href="#_dtv_webseite"></a>DTV-Webseite</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_verbände_lesend_liste"><a class="anchor" href="#_verbände_lesend_liste"></a>Verbände (lesend, Liste)</h3>
+<div class="sect3">
+<h4 id="_aufruf"><a class="anchor" href="#_aufruf"></a>Aufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET/HEAD</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>HTTP-Header: If-Modified-Since/If-None-Match</p>
+</li>
+<li>
+<p>URL-Parameter: Typ</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_antwort"><a class="anchor" href="#_antwort"></a>Antwort</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Array Verbände</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Verbands-ID</p>
+</li>
+<li>
+<p>Name</p>
+</li>
+<li>
+<p>Kurzname</p>
+</li>
+<li>
+<p>Bundesland (nur bei Landesverbänden)</p>
+</li>
+<li>
+<p>Typ (z.B. LTV, Fachverband)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>HTTP-Response soll nach Möglichkeit Response-Header enthalten, die ein
+effizientes Caching erlauben (Last-Modified oder E-Tag).</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_vereine_lesend_suchend_recherche_inkl_landkarteumkreis"><a class="anchor" href="#_vereine_lesend_suchend_recherche_inkl_landkarteumkreis"></a>Vereine (lesend, suchend, Recherche, inkl. Landkarte/Umkreis)</h3>
+<div class="sect3">
+<h4 id="_aufruf_suche"><a class="anchor" href="#_aufruf_suche"></a>Aufruf Suche</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>URL-Parameter: Suchbegriff Clubname, Suchbegriffe Verband (z.B. TBW or
+HTV über IDs, Mehrfachnennung möglich), Geo-Suche (z.B. Umkreis um
+PLZ/Ort), Tätigkeitsfelder/Aktivitäten (z.B. St/Lat/HipHop…) [alles
+optional]</p>
+</li>
+<li>
+<p>URL-Parameter: Max Treffer (pro Seite)</p>
+</li>
+<li>
+<p>URL-Parameter: Seite</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rückgabe_liste"><a class="anchor" href="#_rückgabe_liste"></a>Rückgabe Liste</h4>
+<div class="paragraph">
+<p>Vereinsdatensatz (Adresse, Tätigkeitsfelder/Aktivitäten, Kontakt, Geo,
+…)</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_kategorien_lesend"><a class="anchor" href="#_kategorien_lesend"></a>Kategorien (lesend)</h3>
+<div class="paragraph">
+<p>Rückgabe der Suchkategorien für den Turnierkalender nach Wettbewerbsart.</p>
+</div>
+<div class="sect3">
+<h4 id="_aufruf_2"><a class="anchor" href="#_aufruf_2"></a>Aufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET/HEAD</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>HTTP Header: If-Modified-Since/If-None-Match</p>
+</li>
+<li>
+<p>URL-Parameter: Wettbewerbsart (nicht optional)</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /kategorien/{wettbewerbsart} HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_antwort_2"><a class="anchor" href="#_antwort_2"></a>Antwort</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Array von Kategorien</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Name</p>
+</li>
+<li>
+<p>Kennzeichen</p>
+</li>
+<li>
+<p>Ausland (true/false)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>HTTP-Response soll nach Möglichkeit Response-Header enthalten, die ein
+effizientes Caching erlauben (Last-Modified oder E-Tag).</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_regelwerk_lesend"><a class="anchor" href="#_regelwerk_lesend"></a>Regelwerk (lesend)</h3>
+<div class="paragraph">
+<p>Rückgabe der möglichen Parameter für den Suchparameter „Turnier“ in der
+Turnierdatenbank je nach Wettbewerbsart. Dabei werden nur die
+grundsätzlich möglichen Kombinationen der Einzelparameter zurückgegeben
+(keine Abhängigkeit von der Turnierform oder der Kategorie) – siehe
+Excel-Datei. Die Liste kann durch die optionalen URL-Parameter
+eingeschränkt werden.</p>
+</div>
+<div class="sect3">
+<h4 id="_aufruf_3"><a class="anchor" href="#_aufruf_3"></a>Aufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET/HEAD</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>HTTP Header: If-Modified-Since/If-None-Match</p>
+</li>
+<li>
+<p>URL-Parameter: Wettbewerbsart (nicht optional)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Einzelwettbewerbe St/Lat</p>
+<div class="ulist">
+<ul>
+<li>
+<p>URL-Parameter: Startgruppe (optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Startklasse (optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Turnierat (optional)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Formationswettbewerbe St/Lat und JMD, Smallgroupwettbewerbe JMD</p>
+<div class="ulist">
+<ul>
+<li>
+<p>URL-Parameter: Startgruppe (optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Startliga (optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Turnierart (optional)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Solo- und Duowettbewerbe JMD</p>
+<div class="ulist">
+<ul>
+<li>
+<p>URL-Parameter: Startgruppe (optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Startklasse (optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Turnierart (optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Geschlecht (optional)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /regelwerk/{wettbewerbsart}?param1={param1}&amp;param2={param2} HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_antwort_3"><a class="anchor" href="#_antwort_3"></a>Antwort</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Array von „Regelwerksdatensätzen“ (vollständig oder gefiltert)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Einzelwettbewerbe St/Lat</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Startgruppe</p>
+</li>
+<li>
+<p>Startklasse</p>
+</li>
+<li>
+<p>Turnierart</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Formationswettbewerbe St/Lat und JMD, Smallgroupwettbewerbe JMD</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Startgruppe</p>
+</li>
+<li>
+<p>Startliga (bei Small Groups immer NULL)</p>
+</li>
+<li>
+<p>Turnierart (bei JMD immer JMD)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Solo- und Duowettbewerbe JMD</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Startgruppe</p>
+</li>
+<li>
+<p>Startklasse</p>
+</li>
+<li>
+<p>Turnierart (immer JMD)</p>
+</li>
+<li>
+<p>Geschlecht (bei Duo immer NULL)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>HTTP-Response soll nach Möglichkeit Response-Header enthalten, die ein
+effizientes Caching erlauben (Last-Modified oder E-Tag).</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_turnierkalender_lesend_einzelaufruf_und_suche"><a class="anchor" href="#_turnierkalender_lesend_einzelaufruf_und_suche"></a>Turnierkalender (lesend, Einzelaufruf und Suche)</h3>
+<div class="paragraph">
+<p>Beschreibung eines sinnvollen Suchalgorithmus:</p>
+</div>
+<div class="paragraph">
+<p>Die Suche erfolgt getrennt nach Wettbewerbsarten, da sich die
+unterschiedlichen Suchparameter nur schlecht über die Wettbewerbsarten
+kombinieren lassen. Lediglich bei JMD Solo/Duo wäre eine Zusammenfassung
+denkbar, sinnvoll und gewünscht.</p>
+</div>
+<div class="paragraph">
+<p>Prinzipiell wird immer nach Turnieren in einem bestimmten Zeitfenster
+gesucht. Diese Parameter lassen sich auf alle Turniere anwenden.</p>
+</div>
+<div class="paragraph">
+<p>Ferner wird zwischen Turnieren im Inland und im Ausland unterschieden.
+Die Turniere werden nach Kategorien gruppiert, die eine Zusammenfassung
+der einzelnen Turnierformen darstellen.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Inland</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Kategorie „Meisterschaft“</p>
+</li>
+<li>
+<p>Kategorie „Rangliste“</p>
+</li>
+<li>
+<p>Kategorie „Offen“</p>
+</li>
+<li>
+<p>Kategorie „International (Inland)“ (II)</p>
+</li>
+<li>
+<p>Kategorie „Einladung“</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Ausland (bisher nur Einzelwettbewerbe St/Lat)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Kategorie „Grenzverkehr“</p>
+</li>
+<li>
+<p>Kategorie „International (Ausland)“ (IA)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Die Auslandsturniere werden von der DTV-Geschäftsstelle nur für den
+Tanzspiegel und die Turnierdatenbank erfasst. Da sich die Suchparameter
+Geo, Landesverband und „Turnier“ (Startgruppe, Startklasse, Turnierart,
+Liga etc.) hier nicht sinnvoll anwenden lassen, dürfen diese
+Einschränkungen des Suchergebnisses nicht für die Auslandskategorien
+angewendet werden.</p>
+</div>
+<div class="paragraph">
+<p>Die Inlandsturniere werden über die Suchparameter</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Geo-Suche</p>
+</li>
+<li>
+<p>Landesverband</p>
+</li>
+<li>
+<p>und „Turnier“</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>eingeschränkt.</p>
+</div>
+<div class="paragraph">
+<p>Der Suchparameter „Turnier“ besteht je nach Wettbewerbsart aus
+unterschiedlichen Einzelparametern:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Einzelwettbewerbe Standard/Latein</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Startgruppe</p>
+</li>
+<li>
+<p>Startklasse</p>
+</li>
+<li>
+<p>Turnierart</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Formationswettbewerbe Standard/Latein</p>
+<div class="ulist">
+<ul>
+<li>
+<p>(Startgruppe – inhaltlich obsolet, da immer Hgr)</p>
+</li>
+<li>
+<p>Startliga</p>
+</li>
+<li>
+<p>Turnierart</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Formationswettbewerbe JMD</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Startgruppe</p>
+</li>
+<li>
+<p>Startliga</p>
+</li>
+<li>
+<p>(Turnierart – inhaltlich obsolet, da immer JMD)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Smallgroupwettbewerbe JMD</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Startgruppe</p>
+</li>
+<li>
+<p>(Turnierart – inhaltlich obsolet, da immer JMD)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Solowettbewerbe JMD</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Startgruppe</p>
+</li>
+<li>
+<p>(Startklasse – z.Zt. obsolet, da immer A)</p>
+</li>
+<li>
+<p>(Turnierart – inhaltlich obsolet, da immer JMD)</p>
+</li>
+<li>
+<p>Geschlecht: m, w, uni</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Duowettbewerbe JMD</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Startgruppe</p>
+</li>
+<li>
+<p>(Startklasse – z.Zt. obsolet, da immer A)</p>
+</li>
+<li>
+<p>(Turnierart – inhaltlich obsolet, da immer JMD)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Der Suchparameter „Turnier“ soll mehrfach (mind. jedoch zweifach)
+angegeben werden können und durch eine Konjunktion oder Disjunktion
+verbunden werden. Das soll gewährleisten, dass Doppelstarter nach
+Turnieren der gleichen Startklasse und Turnierart in min. zwei
+Startgruppen suchen können (z.B. Jun I D St, Jun II D St).</p>
+</div>
+<div class="paragraph">
+<p>Bei der zeitgleichen Suchen nach Turnieren im In- und Ausland muss
+darauf geachtet werden, dass die nur für Inlandsturniere gültigen
+Parameter nicht auf Auslandsturniere angewandt werden (z.b. durch
+Trennung der Abfrage in zwei Teile und Zusammenführung via SQL Union).</p>
+</div>
+<div class="paragraph">
+<p>Die möglichen Kombinationen für den Suchparameter „Turnier“ liefert das
+Regelwerk-Interface. Die möglichen Werte für den Suchparameter
+„Landesverband“ liefert das Landesverbandsinterface.</p>
+</div>
+<div class="paragraph">
+<p>Die Parameter für die Geo-Suche müssen noch gemeinsam erörtert werden.</p>
+</div>
+<div class="sect3">
+<h4 id="_einzelaufruf"><a class="anchor" href="#_einzelaufruf"></a>Einzelaufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>URL-Parameter: Turnier-ID</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_aufruf_suche_2"><a class="anchor" href="#_aufruf_suche_2"></a>Aufruf Suche</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Turnierprogramm inkl. Version<br>
+Kennschlüssel)</p>
+</li>
+<li>
+<p>URL-Parameter: Wettbewerbsart (Einzel, Formation St/Lat, JMD
+Formation, JMD Small Group, JMD Solo, JMD Duo; nicht optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Zeitfenster (von, bis; nicht optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Geo-Suche (Umkreis, PLZ; optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Landesverband (mehrfach, optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Kategorie (optional)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Einzel: Meisterschaft, Rangliste, Offen, International (Inland),
+Einladung, Grenzverkehr, International (Ausland)</p>
+</li>
+<li>
+<p>Formation St/Lat: Meisterschaft, Liga, Einladung</p>
+</li>
+<li>
+<p>JMD Formation: Meisterschaft, Liga, Einladung</p>
+</li>
+<li>
+<p>JMD-Small Group: Meisterschaft, Rangliste, Offen</p>
+</li>
+<li>
+<p>JMD-Solo: Meisterschaft, Rangliste, Offen, Einladung</p>
+</li>
+<li>
+<p>JMD-Duo: Meisterschaft, Rangliste, Offen, Einladung</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>URL-Parameter: „Turnier“ (s.o. – optional, mehrfach)</p>
+</li>
+<li>
+<p>URL-Parameter: Konjunktion (für Mehrfachparameter Turnier, optional,
+default false)</p>
+</li>
+<li>
+<p>Max Treffer</p>
+</li>
+<li>
+<p>Seite</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rückgabe_liste_2"><a class="anchor" href="#_rückgabe_liste_2"></a>Rückgabe Liste</h4>
+<div class="paragraph">
+<p>Einzelne Veranstaltungsdaten wie für Turnierprogramm aber als Array über
+alle in Frage kommenden Veranstaltungen. Mehrtägige Veranstaltungen
+werden pro Treffertag komplett (alle Veranstaltungstage) zurückgemeldet.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lehrgangskalender_lesend_suche"><a class="anchor" href="#_lehrgangskalender_lesend_suche"></a>Lehrgangskalender (lesend, Suche)</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_ergebnisupdates_lesend_suche"><a class="anchor" href="#_ergebnisupdates_lesend_suche"></a>Ergebnisupdates (lesend, Suche)</h3>
+<div class="paragraph">
+<p>Liefert eine Liste Turniere bei denen aktuelle Turnierergebnisse
+vorliegen. Ergebnisdatensätze werden nur zurückgemeldet, wenn mindestens
+die Startliste hochgeladen wurde.<br>
+Sortierung nach Zeitstempel der letzten Datenänderungen absteigend</p>
+</div>
+<div class="sect3">
+<h4 id="_aufruf_4"><a class="anchor" href="#_aufruf_4"></a>Aufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET</p>
+</li>
+<li>
+<p>HTTP Header: User + Passwort (Basic Authentication)</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>HTTP Header: If-Modified-Since/If-None-Match</p>
+</li>
+<li>
+<p>URL-Parameter: Wettbewerbsart (Einzel, Formation St/Lat, JMD
+Formation, JMD Small Group, JMD Solo, JMD Duo; optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Zeitfenster (von, bis; optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Geo-Suche (Umkreis, PLZ; optional)</p>
+</li>
+<li>
+<p>URL-Parameter: Landesverband (mehrfach, optional)</p>
+</li>
+<li>
+<p>URL-Parameter: max. Treffer (optional, Standard 10)</p>
+</li>
+<li>
+<p>URL-Parameter: Seite (optional, Standard 1)</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>GET /ergebnisse?wettbewerbsart={wettbewerbsart}&amp;datumVon={datumVon}
+&amp;datumBis={datumBis}&amp;ltv={ltv}&amp;max={maxTreffer}&amp;seite={seite} HTTP/1.1
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+User-Agent: Software/1.0; Token=abcdefghijklmnopqrstuvwxyz</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_antwort_4"><a class="anchor" href="#_antwort_4"></a>Antwort</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Array Turniere mit Ergebnissen</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Turnier-ID</p>
+</li>
+<li>
+<p>Datum von</p>
+</li>
+<li>
+<p>Datum bis</p>
+</li>
+<li>
+<p>Wettbewerbsart</p>
+</li>
+<li>
+<p>Turnierform</p>
+</li>
+<li>
+<p>Startgruppe</p>
+</li>
+<li>
+<p>Startklasse oder Startliga</p>
+</li>
+<li>
+<p>Turnierart</p>
+</li>
+<li>
+<p>Titel</p>
+</li>
+<li>
+<p>Veranstaltung</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Veranstaltungs-ID</p>
+</li>
+<li>
+<p>Titel</p>
+</li>
+<li>
+<p>Turnierstätte</p>
+<div class="ulist">
+<ul>
+<li>
+<p>PLZ</p>
+</li>
+<li>
+<p>Ort</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Status (Startliste, Zwischenergebnis, abgeschlossen)</p>
+</li>
+<li>
+<p>letzte abgeschlossene Runde (NULL, falls Turnier noch nicht
+gestartet)</p>
+</li>
+<li>
+<p>Zeitstempel der letzten Ergebnis-Einspielung</p>
+</li>
+<li>
+<p>Link zur Ergebniswebseite</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>HTTP-Response soll nach Möglichkeit Response-Header enthalten, die ein
+effizientes Caching erlauben (Last-Modified oder E-Tag).</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_startbuchdaten_lesend_z_b_für_dtv_app"><a class="anchor" href="#_startbuchdaten_lesend_z_b_für_dtv_app"></a>Startbuchdaten (lesend) z.B. für DTV-App</h3>
+<div class="sect3">
+<h4 id="_aufruf_5"><a class="anchor" href="#_aufruf_5"></a>Aufruf</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>HTTP-Verb: GET/HEAD</p>
+</li>
+<li>
+<p>Authentisierung via OAuth2 oder HTTP-Header: Personen-ID+Passwort als
+Basic Authentication</p>
+</li>
+<li>
+<p>HTTP Header: User-Agent (Software inkl. Version + Kennschlüssel)</p>
+</li>
+<li>
+<p>HTTP Header: If-Modified-Since/If-None-Match</p>
+</li>
+<li>
+<p>URL-Parameter: Max Treffer (pro Seite)</p>
+</li>
+<li>
+<p>URL-Parameter: Seite (Seite 1=neueste, Seite n=älteste)</p>
+</li>
+<li>
+<p>URL-Parameter: Startbuch (optional, alle, oder z.B. nur Standard oder
+Funktionär)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_antwort_5"><a class="anchor" href="#_antwort_5"></a>Antwort</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Array über die Startbücher (Turnierarten und Typen)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Typ (Sportler, Funktionär)</p>
+</li>
+<li>
+<p>Turnierart (nur Sportler)</p>
+</li>
+<li>
+<p>Nächster Start Altersgruppe (nur Sportler)</p>
+</li>
+<li>
+<p>Nächster Start Turnierklasse (nur Sportler)</p>
+</li>
+<li>
+<p>Restpunkte bis Aufstieg (nur Sportler)</p>
+</li>
+<li>
+<p>Restplatzierungen bis Aufstieg (nur Sportler)</p>
+</li>
+<li>
+<p>Startsperre aktiv bis Datum</p>
+</li>
+<li>
+<p>Array Rangliste (wenn nicht Ranglistenpaar: null, sonst: über alle
+beteiligten Ranglisten)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Ranglisten-ID</p>
+</li>
+<li>
+<p>Ranglistenname</p>
+</li>
+<li>
+<p>aktueller Ranglistenplatz</p>
+</li>
+<li>
+<p>aktuelle Summe Ranglistenpunkte</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Array Startbuchdaten</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Laufende Nummer</p>
+</li>
+<li>
+<p>Typ (Teilnahme, Infozeile)</p>
+</li>
+<li>
+<p>Inhalt (Typ Teilnahme)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Veranstaltungs-ID</p>
+</li>
+<li>
+<p>Veranstaltungstitel (optional)</p>
+</li>
+<li>
+<p>Turnier-ID</p>
+</li>
+<li>
+<p>Turnierdatum (Turnierbeginn bei mehrtägig)</p>
+</li>
+<li>
+<p>Ausrichter</p>
+</li>
+<li>
+<p>Turnierort</p>
+</li>
+<li>
+<p>Turnierform</p>
+</li>
+<li>
+<p>Turnierrang</p>
+</li>
+<li>
+<p>Turniertitel (optional)</p>
+</li>
+<li>
+<p>Wettbewerbsart</p>
+</li>
+<li>
+<p>Turnierart</p>
+</li>
+<li>
+<p>Altersgruppe</p>
+</li>
+<li>
+<p>Klasse/Liga</p>
+</li>
+<li>
+<p>Funktion (TL, WR, BS, CHM; nur Funktionär)</p>
+</li>
+<li>
+<p>Platz (nur Sportler)</p>
+</li>
+<li>
+<p>Max. Platz in Turnier (nur Sportler)</p>
+</li>
+<li>
+<p>Punkte (nur Sportler)</p>
+</li>
+<li>
+<p>IstPlatzierung (nur Sportler)</p>
+</li>
+<li>
+<p>Summe Punkte (nur Sportler)</p>
+</li>
+<li>
+<p>Summe Platzierungen (nur Sportler)</p>
+</li>
+<li>
+<p>Flag Verwarnung, Disqualifizierung,
+nicht-Aufstiegsrelevant-da-zu-spät-hochgeladen</p>
+</li>
+<li>
+<p>Link zur Ergebniswebseite</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Inhalt (Typ Infozeile)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Datum</p>
+</li>
+<li>
+<p>Infotext (z.B.: Aufstieg, Alterswechsel, Trennung,
+Neuzusammenstellung, Buch geschlossen)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>HTTP-Response soll nach Möglichkeit Response-Header enthalten, die ein
+effizientes Caching erlauben (Last-Modified oder E-Tag).</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tanzspiegel"><a class="anchor" href="#_tanzspiegel"></a>Tanzspiegel</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_turniere_lesend"><a class="anchor" href="#_turniere_lesend"></a>Turniere (lesend)</h3>
+<div class="paragraph">
+<p>Aktuelle Zusammenfassung der Kategorien (siehe Turnierdatenbank) zu
+Abschnitten im Tanzspiegel -</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Wettbewerbsart</th>
+<th class="tableblock halign-left valign-top">Abschnitt</th>
+<th class="tableblock halign-left valign-top">Kategorien</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Einzel St/Lat</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Offene Turniere</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Meisterschaften</p>
+</div>
+<div class="paragraph">
+<p>Ranglistenturniere</p>
+</div>
+<div class="paragraph">
+<p>Offene Turniere</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Einladungsturniere</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Einladungsturniere</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Grenzverkehr</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Grenzverkehr</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Internationale Turniere</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Internationale Turniere Inland/Ausland</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Formationen St/Lat</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Formationsturniere</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Meisterschaften</p>
+</div>
+<div class="paragraph">
+<p>Ligaturniere</p>
+</div>
+<div class="paragraph">
+<p>Einladung</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Formationen JMD</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">JMD</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Meisterschaften</p>
+</div>
+<div class="paragraph">
+<p>Ligaturniere</p>
+</div>
+<div class="paragraph">
+<p>Einladung</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Small Groups JMD</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Meisterschaften</p>
+</div>
+<div class="paragraph">
+<p>Ranglistenturniere</p>
+</div>
+<div class="paragraph">
+<p>Offene Turniere</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Solo/Duo JMD</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Meisterschaften</p>
+</div>
+<div class="paragraph">
+<p>Ranglistenturniere</p>
+</div>
+<div class="paragraph">
+<p>Offene Turniere</p>
+</div>
+<div class="paragraph">
+<p>Einladung</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>TAF</p>
+</div>
+<div class="paragraph">
+<p>(nur nachrichtlich zum Abdruck)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">keine – wird geklärt!</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_bsws_lesend"><a class="anchor" href="#_bsws_lesend"></a>BSWs (lesend)</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_schulungen_lesend"><a class="anchor" href="#_schulungen_lesend"></a>Schulungen (Lesend)</h3>
+
+</div>
+</div>
+</div>
+</article>
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>Copyright (C) 2015-2020 <a href="https://tanzsport.de">Deutscher Tanzsportverband</a>
+</footer>
+<script src="../../../_/js/site.js"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
