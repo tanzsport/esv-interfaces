@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <sitemap>
-<loc>https://tanzsport.github.io/esv-interfaces/sitemap-api.xml</loc>
+<loc>http://localhost:8080/sitemap-api.xml</loc>
 </sitemap>
 <sitemap>
-<loc>https://tanzsport.github.io/esv-interfaces/sitemap-ROOT.xml</loc>
+<loc>http://localhost:8080/sitemap-ROOT.xml</loc>
 </sitemap>
 </sitemapindex>
